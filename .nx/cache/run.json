@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx build agile-lyzed-app",
+    "startTime": "2023-11-06T04:38:45.029Z",
+    "endTime": "2023-11-06T04:38:56.506Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "agile-lyzed-app:build:production",
+      "target": "build",
+      "projectName": "agile-lyzed-app",
+      "hash": "12991305698710615529",
+      "startTime": "2023-11-06T04:38:45.031Z",
+      "endTime": "2023-11-06T04:38:56.505Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

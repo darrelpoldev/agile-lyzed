@@ -1,0 +1,30 @@
+- [36minfo[39m Creating an optimized production build...
+- [36minfo[39m Compiled successfully
+- [36minfo[39m Skipping linting
+- [36minfo[39m Checking validity of types...
+- [36minfo[39m Collecting page data...
+- [36minfo[39m Generating static pages (0/4)
+- [36minfo[39m Generating static pages (1/4)
+- [36minfo[39m Generating static pages (2/4)
+- [36minfo[39m Generating static pages (3/4)
+- [36minfo[39m Generating static pages (4/4)
+- [36minfo[39m Finalizing page optimization...
+
+[4mRoute (app)[24m                                [4mSize[24m     [4mFirst Load JS[24m
+┌ ○ /                                      203 B          [32m77.2 kB[39m
+└ ○ /api/hello                             0 B                [32m0 B[39m
++ First Load JS shared by all              [32m77 kB[39m
+  ├ chunks/25b6c4a8-1acc176932ec9b1a.js    50.6 kB
+  ├ chunks/898-dfdba8185736bbf8.js         24.5 kB
+  ├ chunks/main-app-ec41c42b3a191520.js    213 B
+  └ chunks/webpack-806f8328427788e8.js     1.68 kB
+
+[4mRoute (pages)[24m                              [4mSize[24m     [4mFirst Load JS[24m
+─ ○ /404                                   178 B          [32m86.1 kB[39m
++ First Load JS shared by all              [32m85.9 kB[39m
+  ├ chunks/main-9cc8e4d65d7b90aa.js        84 kB
+  ├ chunks/pages/_app-10b90428f8976fe7.js  191 B
+  └ chunks/webpack-806f8328427788e8.js     1.68 kB
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+
