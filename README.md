@@ -12,4 +12,4 @@ Run `nx test agile-lyzed` to execute the unit tests via [Jest](https://jestjs.io
 
 
 ## Front End
-1. To serve, run `nx g @nx/react:app agile-lyzed-app`
+1. To serve, run `nx serve agile-lyzed-app`
