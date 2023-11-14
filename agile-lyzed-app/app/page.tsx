@@ -1,5 +1,5 @@
 'use client'
-import { Button } from '@chakra-ui/react'
+import SidebarWithHeader from './sideNav'
 
 export default async function Index() {
   /*
@@ -8,6 +8,6 @@ export default async function Index() {
    * Note: The corresponding styles are in the ./index.css file.
    */
   return (
-    <Button>Sample Button by Chakra UI</Button>
+    <SidebarWithHeader />
   );
 }
