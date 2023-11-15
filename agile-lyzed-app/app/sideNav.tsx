@@ -33,10 +33,17 @@ import {
   FiChevronDown,
 } from 'react-icons/fi'
 import { IconType } from 'react-icons'
+import { Dispatch, SetStateAction, useState } from 'react'
 
+enum RenderValue { 
+  HOME = "HOME", 
+  ABOUT = "ABOUT",
+  SETTINGS = "SETTINGS"
+}
 interface LinkItemProps {
   name: string
-  icon: IconType
+  icon: IconType,
+  renderValue: RenderValue
 }
 
 interface NavItemProps extends FlexProps {
@@ -50,15 +57,16 @@ interface MobileProps extends FlexProps {
 
 interface SidebarProps extends BoxProps {
   onClose: () => void
+  setRenderContent: (value: RenderValue) => void
 }
 
 const LinkItems: Array<LinkItemProps> = [
-  { name: 'Home', icon: FiHome },
-  { name: 'About Me', icon: FiStar },
-  { name: 'Settings', icon: FiSettings },
+  { name: 'Home', icon: FiHome, renderValue: RenderValue.HOME },
+  { name: 'About Me', icon: FiStar, renderValue: RenderValue.ABOUT },
+  { name: 'Settings', icon: FiSettings, renderValue: RenderValue.SETTINGS },
 ]
 
-const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
+const SidebarContent = ({ onClose, setRenderContent, ...rest }: SidebarProps) => {
   return (
     <Box
       transition="3s ease"
@@ -76,7 +84,7 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
         <CloseButton display={{ base: 'flex', md: 'none' }} onClick={onClose} />
       </Flex>
       {LinkItems.map((link) => (
-        <NavItem key={link.name} icon={link.icon}>
+        <NavItem key={link.name} icon={link.icon} onClick={() => { setRenderContent(link.renderValue) }}>
           {link.name}
         </NavItem>
       ))}
@@ -188,12 +196,19 @@ const MobileNav = ({ onOpen, ...rest }: MobileProps) => {
   )
 }
 
+
+
 const SidebarWithHeader = () => {
   const { isOpen, onOpen, onClose } = useDisclosure()
+  const [renderContent, setRenderContent] = useState(RenderValue.HOME);
+  const handleSetRenderContent = (renderValue: RenderValue): void => {
+    setRenderContent(renderValue)
+    console.log(renderContent)
+  }
 
   return (
     <Box minH="100vh" bg={useColorModeValue('gray.100', 'gray.900')}>
-      <SidebarContent onClose={() => onClose} display={{ base: 'none', md: 'block' }} />
+      <SidebarContent onClose={() => onClose} display={{ base: 'none', md: 'block' }} setRenderContent={handleSetRenderContent} />
       <Drawer
         isOpen={isOpen}
         placement="left"
@@ -202,13 +217,22 @@ const SidebarWithHeader = () => {
         onOverlayClick={onClose}
         size="full">
         <DrawerContent>
-          <SidebarContent onClose={onClose} />
+          <SidebarContent onClose={onClose} setRenderContent={handleSetRenderContent}/>
         </DrawerContent>
       </Drawer>
       {/* mobilenav */}
       <MobileNav onOpen={onOpen} />
       <Box ml={{ base: 0, md: 60 }} p="4">
-        {/* Content */}
+        {
+          (() => {
+            if (renderContent === RenderValue.ABOUT)
+              return <Text>About</Text>
+            if (renderContent === RenderValue.SETTINGS)
+              return <Text>Settings</Text>
+            if (renderContent === RenderValue.HOME)
+              return <Text>Home</Text>
+          })()
+        }
       </Box>
     </Box>
   )
