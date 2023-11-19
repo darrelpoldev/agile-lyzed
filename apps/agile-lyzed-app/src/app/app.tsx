@@ -1,13 +1,14 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.css';
-
-import NxWelcome from './nx-welcome';
+import NavBar from './nav-bar/nav-bar';
+import { Box, ChakraProvider } from '@chakra-ui/react';
 
 export function App() {
   return (
-    <div>
-      Hello, you've been AgileLyzed.
-    </div>
+    <ChakraProvider>
+      <NavBar />
+      <Box>Set footer here</Box>
+    </ChakraProvider>
   );
 }
 
