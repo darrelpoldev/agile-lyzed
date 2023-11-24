@@ -1,0 +1,57 @@
+{
+  "name": "agile-lyzed-api",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/agile-lyzed-api/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nx/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "target": "node",
+        "compiler": "tsc",
+        "outputPath": "dist/apps/agile-lyzed-api",
+        "main": "apps/agile-lyzed-api/src/main.ts",
+        "tsConfig": "apps/agile-lyzed-api/tsconfig.app.json",
+        "assets": ["apps/agile-lyzed-api/src/assets"],
+        "isolatedConfig": true,
+        "webpackConfig": "apps/agile-lyzed-api/webpack.config.js"
+      },
+      "configurations": {
+        "development": {},
+        "production": {}
+      }
+    },
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "agile-lyzed-api:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "agile-lyzed-api:build:development"
+        },
+        "production": {
+          "buildTarget": "agile-lyzed-api:build:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/agile-lyzed-api/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/agile-lyzed-api/jest.config.ts"
+      }
+    }
+  },
+  "tags": []
+}
