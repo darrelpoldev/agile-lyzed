@@ -15,6 +15,7 @@ import {
   useDisclosure,
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
+import { Link } from 'react-router-dom';
 interface NavBarLinks {
   displayText: string;
   navigationRoute: string;
@@ -22,11 +23,11 @@ interface NavBarLinks {
 const routes: NavBarLinks[] = [
   {
     displayText: 'Tools',
-    navigationRoute: '/tools',
+    navigationRoute: '/',
   },
   {
     displayText: 'Blog',
-    navigationRoute: '/blog',
+    navigationRoute: '/blogs',
   },
   {
     displayText: 'About Me',
@@ -37,15 +38,17 @@ const routes: NavBarLinks[] = [
 /* eslint-disable-next-line */
 export interface NavBarProps {}
 
-interface Props {
+interface NavLinkProps {
   children: React.ReactNode;
+  routerLink: string;
 }
 
-const NavLink = (props: Props) => {
-  const { children } = props;
+const NavLink = (props: NavLinkProps) => {
+  const { children, routerLink } = props;
   return (
     <Box
-      as="a"
+      as={Link}
+      to={routerLink}
       px={2}
       py="1"
       rounded={'md'}
@@ -53,7 +56,6 @@ const NavLink = (props: Props) => {
         textDecoration: 'none',
         bg: useColorModeValue('gray.200', 'gray.700'),
       }}
-      href={'#'}
     >
       {children}
     </Box>
@@ -77,7 +79,12 @@ export function NavBar(props: NavBarProps) {
           <Box>DarrelPol</Box>
           <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }}>
             {routes.map((route) => (
-              <NavLink key={route.navigationRoute}>{route.displayText}</NavLink>
+              <NavLink
+                routerLink={route.navigationRoute}
+                key={route.navigationRoute}
+              >
+                {route.displayText}
+              </NavLink>
             ))}
           </HStack>
         </HStack>
@@ -107,7 +114,12 @@ export function NavBar(props: NavBarProps) {
         <Box pb={4} display={{ md: 'none' }}>
           <Stack as={'nav'} spacing={4}>
             {routes.map((route) => (
-              <NavLink key={route.navigationRoute}>{route.displayText}</NavLink>
+              <NavLink
+                routerLink={route.navigationRoute}
+                key={route.navigationRoute}
+              >
+                {route.displayText}
+              </NavLink>
             ))}
           </Stack>
         </Box>
