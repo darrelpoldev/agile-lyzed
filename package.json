@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "start:all": "nx run-many --parallel --target=serve --projects=agile-lyzed-api,agile-lyzed-app"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",
