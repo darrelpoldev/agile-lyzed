@@ -17412,3 +17412,45 @@ Error: This workspace is more than a week old and is unclaimed. Workspaces must 
 [NX Daemon Server] - 2023-11-06T04:51:38.530Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2023-11-06T04:51:38.530Z - [REQUEST]: .nx/cache/project-graph.json,.nx/cache/file-map.json
 [NX Daemon Server] - 2023-11-06T04:51:38.530Z - [REQUEST]: .nx/cache/project-graph.json~3bdf5104,.nx/cache/file-map.json~3bdf5104
+[NX Daemon Server] - 2023-11-29T02:22:07.112Z - Started listening on: /var/folders/nn/nv604nhs02g2rmm39zgg4wr40000gp/T/ca0622ce39e973bb86d1/d.sock
+[NX Daemon Server] - 2023-11-29T02:22:07.126Z - [WATCHER]: Subscribed to changes within: /Users/DarrelJade/Documents/apps/agile-lyzed (native)
+[NX Daemon Server] - 2023-11-29T02:22:07.126Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-11-29T02:22:07.127Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-11-29T02:22:07.129Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-11-29T02:22:07.129Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-11-29T02:22:07.172Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-11-29T02:22:07.172Z - [REQUEST]: 
+[NX Daemon Server] - 2023-11-29T02:22:07.172Z - [REQUEST]: 
+[NX Daemon Server] - 2023-11-29T02:22:07.227Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-11-29T02:22:07.228Z - Time taken for 'total for creating and serializing project graph' 97.81749987602234ms
+[NX Daemon Server] - 2023-11-29T02:22:07.229Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-11-29T02:22:07.229Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 98. Response time: 2.
+[NX Daemon Server] - 2023-11-29T02:22:17.517Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-11-29T02:22:17.563Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-29T02:22:17.564Z - [WATCHER]: 23 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-11-29T02:22:17.680Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-11-29T02:22:17.680Z - [REQUEST]: apps/giggly-goals/src/app/app.controller.ts,apps/giggly-goals-e2e/src/support/global-setup.ts,apps/giggly-goals/webpack.config.js,apps/giggly-goals/project.json,apps/giggly-goals-e2e/src/giggly-goals/giggly-goals.spec.ts,apps/giggly-goals/src/main.ts,apps/giggly-goals/.eslintrc.json,apps/giggly-goals/tsconfig.app.json,apps/giggly-goals-e2e/tsconfig.json,apps/giggly-goals-e2e/tsconfig.spec.json,apps/giggly-goals/src/app/app.controller.spec.ts,apps/giggly-goals/src/app/app.service.ts,apps/giggly-goals/src/app/app.service.spec.ts,apps/giggly-goals/tsconfig.spec.json,apps/giggly-goals-e2e/project.json,apps/giggly-goals-e2e/jest.config.ts,apps/giggly-goals-e2e/src/support/global-teardown.ts,apps/giggly-goals-e2e/.eslintrc.json,apps/giggly-goals/src/app/app.module.ts,apps/giggly-goals/src/assets/.gitkeep,apps/giggly-goals/tsconfig.json,apps/giggly-goals-e2e/src/support/test-setup.ts,apps/giggly-goals/jest.config.ts
+[NX Daemon Server] - 2023-11-29T02:22:17.680Z - [REQUEST]: 
+[NX Daemon Server] - 2023-11-29T02:22:17.723Z - Time taken for 'hash changed files from watcher' 0.7465410232543945ms
+[NX Daemon Server] - 2023-11-29T02:22:31.840Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-11-29T02:22:31.840Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-11-29T02:22:31.840Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-11-29T02:22:31.842Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-11-29T02:22:31.842Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-11-29T02:22:31.842Z - Time taken for 'total for creating and serializing project graph' 0.09741711616516113ms
+[NX Daemon Server] - 2023-11-29T02:22:31.843Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-11-29T02:22:31.843Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2023-11-29T02:22:31.855Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-11-29T02:22:35.228Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-11-29T02:22:35.228Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-11-29T02:22:35.228Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-11-29T02:22:35.229Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-11-29T02:22:35.229Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-11-29T02:22:35.229Z - Time taken for 'total for creating and serializing project graph' 0.12299990653991699ms
+[NX Daemon Server] - 2023-11-29T02:22:35.231Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-11-29T02:22:35.231Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2023-11-29T02:22:35.285Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-11-29T02:22:35.285Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-11-29T02:22:35.285Z - Handled HASH_TASKS. Handling time: 25. Response time: 0.
+[NX Daemon Server] - 2023-11-29T02:22:37.720Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-11-29T02:22:45.990Z - Closed a connection. Number of open connections: 0

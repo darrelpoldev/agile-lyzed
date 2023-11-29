@@ -1,0 +1,57 @@
+{
+  "name": "giggly-goals",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/giggly-goals/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nx/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "target": "node",
+        "compiler": "tsc",
+        "outputPath": "dist/apps/giggly-goals",
+        "main": "apps/giggly-goals/src/main.ts",
+        "tsConfig": "apps/giggly-goals/tsconfig.app.json",
+        "assets": ["apps/giggly-goals/src/assets"],
+        "isolatedConfig": true,
+        "webpackConfig": "apps/giggly-goals/webpack.config.js"
+      },
+      "configurations": {
+        "development": {},
+        "production": {}
+      }
+    },
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "giggly-goals:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "giggly-goals:build:development"
+        },
+        "production": {
+          "buildTarget": "giggly-goals:build:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/giggly-goals/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/giggly-goals/jest.config.ts"
+      }
+    }
+  },
+  "tags": []
+}
