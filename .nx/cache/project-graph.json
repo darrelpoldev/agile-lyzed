@@ -15048,6 +15048,11 @@
         "source": "giggly-goals",
         "target": "npm:@nx/webpack",
         "type": "static"
+      },
+      {
+        "source": "giggly-goals",
+        "target": "npm:@nestjs/testing",
+        "type": "static"
       }
     ],
     "agile-lyzed": [
