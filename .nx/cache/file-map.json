@@ -101,36 +101,8 @@
           "hash": "13923171428235780526"
         },
         {
-          "file": "apps/giggly-goals/src/app/app.controller.spec.ts",
-          "hash": "9499997688052526633",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "apps/giggly-goals/src/app/app.controller.ts",
-          "hash": "9005150069945785676",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
           "file": "apps/giggly-goals/src/app/app.module.ts",
-          "hash": "3163250445227373966",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/giggly-goals/src/app/app.service.spec.ts",
-          "hash": "8587461140686713758",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "apps/giggly-goals/src/app/app.service.ts",
-          "hash": "9967902337593410053",
+          "hash": "3951122633049103464",
           "deps": [
             "npm:@nestjs/common"
           ]

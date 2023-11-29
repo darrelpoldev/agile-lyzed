@@ -15036,11 +15036,6 @@
     "giggly-goals": [
       {
         "source": "giggly-goals",
-        "target": "npm:@nestjs/testing",
-        "type": "static"
-      },
-      {
-        "source": "giggly-goals",
         "target": "npm:@nestjs/common",
         "type": "static"
       },
