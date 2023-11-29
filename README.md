@@ -10,6 +10,6 @@ Run `nx build agile-lyzed` to build the library.
 
 Run `nx test agile-lyzed` to execute the unit tests via [Jest](https://jestjs.io).
 
-
 ## Front End
-1. To serve, run `nx serve agile-lyzed-app`
+
+1. To serve frontend and backend services, execute `npm run start:all --watch`
