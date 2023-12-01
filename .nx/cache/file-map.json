@@ -144,7 +144,7 @@
         },
         {
           "file": "apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-data-provider.module.ts",
-          "hash": "5768673401414816136",
+          "hash": "14977193083421685025",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/mongoose",
@@ -169,7 +169,7 @@
         },
         {
           "file": "apps/giggly-goals/src/app/goal/goal.module.ts",
-          "hash": "9461080639733695544",
+          "hash": "7719651389066285692",
           "deps": [
             "npm:@nestjs/common"
           ]
@@ -194,7 +194,7 @@
         },
         {
           "file": "apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts",
-          "hash": "17372965702945827078",
+          "hash": "2900881369694544801",
           "deps": [
             "npm:@nestjs/common"
           ]
@@ -244,7 +244,7 @@
         },
         {
           "file": "apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/models/goal.model.ts",
-          "hash": "5221557825984852106",
+          "hash": "14066962748193754563",
           "deps": [
             "npm:@nestjs/mongoose",
             "npm:mongoose"
@@ -271,6 +271,24 @@
         {
           "file": "apps/giggly-goals/src/app/goal/providers/data-providers/index.ts",
           "hash": "4280414316513175873"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/controllers/index.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/controllers/goals/goals.controller.ts",
+          "hash": "17936923783703721088",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/controllers/goals/goals.controller.spec.ts",
+          "hash": "14398887077088222801",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
         }
       ],
       "agile-lyzed-api": [

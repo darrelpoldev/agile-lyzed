@@ -5,7 +5,7 @@ import { IDataProvider } from '../../domain/abstracts/data-provider.abstract';
 @Injectable()
 export class GoalUseCaseService {
   constructor(private dataProvider: IDataProvider) {}
-  getAllGoals(): Promise<Goal[]> {
+  async getAllGoals(): Promise<Goal[]> {
     return this.dataProvider.goals.getAll();
   }
 

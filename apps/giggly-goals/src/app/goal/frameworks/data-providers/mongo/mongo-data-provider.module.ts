@@ -14,7 +14,9 @@ import { IDataProvider } from '../../../domain/abstracts/data-provider.abstract'
       useFactory: async (configService: ConfigService<Configs>) => ({
         uri: `mongodb+srv://${configService.get(
           'MONGO_USERNAME'
-        )}:${configService.get('MONGO_PASSWORD')}@cluster0.st6il.mongodb.net/`,
+        )}:${configService.get(
+          'MONGO_PASSWORD'
+        )}@cluster0.st6il.mongodb.net/giggly-goals-api`,
       }),
     }),
   ],
