@@ -19070,3 +19070,21 @@ Error: Failed to process project dependencies with "nx-js-graph-plugin".
 [NX Daemon Server] - 2023-12-01T04:13:41.992Z - [REQUEST]: 
 [NX Daemon Server] - 2023-12-01T04:13:42.045Z - Time taken for 'hash changed files from watcher' 1.9706671237945557ms
 [NX Daemon Server] - 2023-12-01T04:14:17.791Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-01T23:17:02.447Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-01T23:17:02.454Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-12-01T23:17:02.455Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-01T23:17:02.463Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-01T23:17:02.466Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-01T23:17:02.480Z - Time taken for 'total for creating and serializing project graph' 1.286041021347046ms
+[NX Daemon Server] - 2023-12-01T23:17:02.482Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-01T23:17:02.482Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 17.
+[NX Daemon Server] - 2023-12-01T23:17:02.563Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-12-01T23:17:02.573Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-12-01T23:17:02.573Z - Handled HASH_TASKS. Handling time: 50. Response time: 10.
+[NX Daemon Server] - 2023-12-01T23:17:03.972Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-01T23:17:05.536Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-01T23:18:17.373Z - [WATCHER]: apps/giggly-goals/.gitignore was modified
+[NX Daemon Server] - 2023-12-01T23:18:17.376Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-01T23:18:17.377Z - [WATCHER]: Stopping the watcher for /Users/DarrelJade/Documents/apps/agile-lyzed (sources)
+[NX Daemon Server] - 2023-12-01T23:18:17.377Z - [WATCHER]: Stopping the watcher for /Users/DarrelJade/Documents/apps/agile-lyzed (outputs)
+[NX Daemon Server] - 2023-12-01T23:18:17.377Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
