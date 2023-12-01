@@ -152,10 +152,6 @@
           ]
         },
         {
-          "file": "apps/giggly-goals/src/app/goal/domain/abstracts/data-service.abstract.ts",
-          "hash": "4984925776429789014"
-        },
-        {
           "file": "apps/giggly-goals/src/app/goal/domain/abstracts/generic-repository.abstract.ts",
           "hash": "10849152560933376899"
         },
@@ -170,10 +166,6 @@
         {
           "file": "apps/giggly-goals/src/app/goal/domain/entities/index.ts",
           "hash": "6162598712478395201"
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/domain/indext.ts",
-          "hash": "14006205524854713805"
         },
         {
           "file": "apps/giggly-goals/src/app/goal/goal.module.ts",
@@ -241,6 +233,18 @@
         {
           "file": "apps/giggly-goals/src/app/goal/use-cases/index.ts",
           "hash": "13704048079040118420"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/domain/index.ts",
+          "hash": "14006205524854713805"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/domain/abstracts/data-provider.abstract.ts",
+          "hash": "13862247861177601333"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/providers/index.ts",
+          "hash": "3244421341483603138"
         }
       ],
       "giggly-goals-e2e": [
