@@ -3258,6 +3258,15 @@
         "hash": "sha512-sTGoeZnjI8N4KS+sW2AN95gDBErhAguvkw/tWdCjeM8bvxpz5lqrnd0vOJABA1A+Ic3zED7PYoLP/RANLgVotA=="
       }
     },
+    "npm:@mongodb-js/saslprep": {
+      "type": "npm",
+      "name": "npm:@mongodb-js/saslprep",
+      "data": {
+        "version": "1.1.1",
+        "packageName": "@mongodb-js/saslprep",
+        "hash": "sha512-t7c5K033joZZMspnHg/gWPE4kandgc2OxE74aYOtGKfgB9VPuVJPix0H6fhmm2erj5PBJ21mqcx34lpIGtUCsQ=="
+      }
+    },
     "npm:@nestjs/common": {
       "type": "npm",
       "name": "npm:@nestjs/common",
@@ -3319,6 +3328,15 @@
         "version": "0.1.7",
         "packageName": "path-to-regexp",
         "hash": "sha512-5DFkuoqlv1uYQKxy8omFBeJPQcdoE07Kv2sferDCrAq1ohOU+MSDswDIbnx3YAM60qIOnYa53wBhXW0EbMonrQ=="
+      }
+    },
+    "npm:@nestjs/mongoose": {
+      "type": "npm",
+      "name": "npm:@nestjs/mongoose",
+      "data": {
+        "version": "10.0.2",
+        "packageName": "@nestjs/mongoose",
+        "hash": "sha512-ITHh075DynjPIaKeJh6WkarS21WXYslu4nrLkNPbWaCP6JfxVAOftaA2X5tPSiiE/gNJWgs+QFWsfCFZUUenow=="
       }
     },
     "npm:@nestjs/platform-express": {
@@ -3393,15 +3411,6 @@
         "hash": "sha512-Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A=="
       }
     },
-    "npm:ms": {
-      "type": "npm",
-      "name": "npm:ms",
-      "data": {
-        "version": "2.1.2",
-        "packageName": "ms",
-        "hash": "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w=="
-      }
-    },
     "npm:ms@2.1.3": {
       "type": "npm",
       "name": "npm:ms@2.1.3",
@@ -3409,6 +3418,15 @@
         "version": "2.1.3",
         "packageName": "ms",
         "hash": "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA=="
+      }
+    },
+    "npm:ms": {
+      "type": "npm",
+      "name": "npm:ms",
+      "data": {
+        "version": "2.1.2",
+        "packageName": "ms",
+        "hash": "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w=="
       }
     },
     "npm:raw-body@2.5.2": {
@@ -5265,6 +5283,24 @@
         "hash": "sha512-95Sfz4nvMAb0Nl9DTxN3j64adfwfbBPEYq14VN7zT5J5O2M9V6iZMIIQU1U+pJyl9agHYHNCqhCXgyEtIRRa5A=="
       }
     },
+    "npm:@types/webidl-conversions": {
+      "type": "npm",
+      "name": "npm:@types/webidl-conversions",
+      "data": {
+        "version": "7.0.3",
+        "packageName": "@types/webidl-conversions",
+        "hash": "sha512-CiJJvcRtIgzadHCYXw7dqEnMNRjhGZlYK05Mj9OyktqV8uVT8fD2BFOB7S1uwBE3Kj2Z+4UyPmFw/Ixgw/LAlA=="
+      }
+    },
+    "npm:@types/whatwg-url": {
+      "type": "npm",
+      "name": "npm:@types/whatwg-url",
+      "data": {
+        "version": "8.2.2",
+        "packageName": "@types/whatwg-url",
+        "hash": "sha512-FtQu10RWgn3D9U4aazdwIE2yzphmTJREDqNdODHrbrZmmMqI0vMheC/6NE/J1Yveaj8H+ela+YwWTjq5PGmuhA=="
+      }
+    },
     "npm:@types/ws": {
       "type": "npm",
       "name": "npm:@types/ws",
@@ -6784,6 +6820,15 @@
         "version": "2.1.1",
         "packageName": "bser",
         "hash": "sha512-gQxTNE/GAfIIrmHLUE3oJyp5FO6HRBfhjnw4/wMmA63ZGDJnWBmgY/lyQBpnDUkGmAhbSe39tx2d/iTOAfglwQ=="
+      }
+    },
+    "npm:bson": {
+      "type": "npm",
+      "name": "npm:bson",
+      "data": {
+        "version": "6.2.0",
+        "packageName": "bson",
+        "hash": "sha512-ID1cI+7bazPDyL9wYy9GaQ8gEEohWvcUl/Yf0dIdutJxnmInEEyCsb4awy/OiBfall7zBA179Pahi3vCdFze3Q=="
       }
     },
     "npm:buffer": {
@@ -10647,6 +10692,15 @@
         "hash": "sha512-ZZow9HBI5O6EPgSJLUb8n2NKgmVWTwCvHGwFuJlMjvLFqlGG6pjirPhtdsseaLZjSibD8eegzmYpUZwoIlj2cQ=="
       }
     },
+    "npm:kareem": {
+      "type": "npm",
+      "name": "npm:kareem",
+      "data": {
+        "version": "2.5.1",
+        "packageName": "kareem",
+        "hash": "sha512-7jFxRVm+jD+rkq3kY0iZDJfsO2/t4BBPeEb2qKn2lR/9KhuksYk5hxzfRYWMPV8P/x2d0kHD306YyWLzjjH+uA=="
+      }
+    },
     "npm:keyv": {
       "type": "npm",
       "name": "npm:keyv",
@@ -11088,6 +11142,15 @@
         "hash": "sha512-UERzLsxzllchadvbPs5aolHh65ISpKpM+ccLbOJ8/vvpBKmAWf+la7dXFy7Mr0ySHbdHrFv5kGFCUHHe6GFEmw=="
       }
     },
+    "npm:memory-pager": {
+      "type": "npm",
+      "name": "npm:memory-pager",
+      "data": {
+        "version": "1.5.0",
+        "packageName": "memory-pager",
+        "hash": "sha512-ZS4Bp4r/Zoeq6+NLJpP+0Zzm0pR8whtGPf1XExKLJBAczGMnSi3It14OiNCStjQjM6NU1okjQGSxgEZN8eBYKg=="
+      }
+    },
     "npm:merge-descriptors": {
       "type": "npm",
       "name": "npm:merge-descriptors",
@@ -11212,6 +11275,51 @@
         "version": "1.4.2",
         "packageName": "mlly",
         "hash": "sha512-i/Ykufi2t1EZ6NaPLdfnZk2AX8cs0d+mTzVKuPfqPKPatxLApaBoxJQ9x1/uckXtrS/U5oisPMDkNs0yQTaBRg=="
+      }
+    },
+    "npm:mongodb": {
+      "type": "npm",
+      "name": "npm:mongodb",
+      "data": {
+        "version": "6.2.0",
+        "packageName": "mongodb",
+        "hash": "sha512-d7OSuGjGWDZ5usZPqfvb36laQ9CPhnWkAGHT61x5P95p/8nMVeH8asloMwW6GcYFeB0Vj4CB/1wOTDG2RA9BFA=="
+      }
+    },
+    "npm:mongodb-connection-string-url": {
+      "type": "npm",
+      "name": "npm:mongodb-connection-string-url",
+      "data": {
+        "version": "2.6.0",
+        "packageName": "mongodb-connection-string-url",
+        "hash": "sha512-WvTZlI9ab0QYtTYnuMLgobULWhokRjtC7db9LtcVfJ+Hsnyr5eo6ZtNAt3Ly24XZScGMelOcGtm7lSn0332tPQ=="
+      }
+    },
+    "npm:mongoose": {
+      "type": "npm",
+      "name": "npm:mongoose",
+      "data": {
+        "version": "8.0.2",
+        "packageName": "mongoose",
+        "hash": "sha512-Vsi9GzTXjdBVzheT1HZOZ2jHNzzR9Xwb5OyLz/FvDEAhlwrRnXnuqJf0QHINUOQSm7aoyvnPks0q85HJkd6yDw=="
+      }
+    },
+    "npm:mpath": {
+      "type": "npm",
+      "name": "npm:mpath",
+      "data": {
+        "version": "0.9.0",
+        "packageName": "mpath",
+        "hash": "sha512-ikJRQTk8hw5DEoFVxHG1Gn9T/xcjtdnOKIU1JTmGjZZlg9LST2mBLmcX3/ICIbgJydT2GOc15RnNy5mHmzfSew=="
+      }
+    },
+    "npm:mquery": {
+      "type": "npm",
+      "name": "npm:mquery",
+      "data": {
+        "version": "5.0.0",
+        "packageName": "mquery",
+        "hash": "sha512-iQMncpmEK8R8ncT8HJGsGc9Dsp8xcgYMVSbs5jgnm1lFHTZqMJTUWTDx1LBO8+mK3tPNZWFLBghQEIOULSTHZg=="
       }
     },
     "npm:mrmime": {
@@ -12978,6 +13086,15 @@
         "hash": "sha512-q5XPytqFEIKHkGdiMIrY10mvLRvnQh42/+GoBlFW3b2LXLE2xxJpZFdm94we0BaoV3RwJyGqg5wS7epxTv0Zvw=="
       }
     },
+    "npm:sift": {
+      "type": "npm",
+      "name": "npm:sift",
+      "data": {
+        "version": "16.0.1",
+        "packageName": "sift",
+        "hash": "sha512-Wv6BjQ5zbhW7VFefWusVP33T/EM0vYikCaQ2qR8yULbsilAT8/wQaXvuQ3ptGLpoKx+lihJE3y2UTgKDyyNHZQ=="
+      }
+    },
     "npm:siginfo": {
       "type": "npm",
       "name": "npm:siginfo",
@@ -13075,6 +13192,15 @@
         "version": "3.0.2",
         "packageName": "source-map-loader",
         "hash": "sha512-BokxPoLjyl3iOrgkWaakaxqnelAJSS+0V+De0kKIq6lyWrXuiPgYTGp6z3iHmqljKAaLXwZa+ctD8GccRJeVvg=="
+      }
+    },
+    "npm:sparse-bitfield": {
+      "type": "npm",
+      "name": "npm:sparse-bitfield",
+      "data": {
+        "version": "3.0.3",
+        "packageName": "sparse-bitfield",
+        "hash": "sha512-kvzhi7vqKTfkh0PZU+2D2PIllw2ymqJKujUcyPMd9Y75Nv4nPbGJZXNhxsgdQab2BmlDct1YnfQCguEvHr7VsQ=="
       }
     },
     "npm:spdy": {
@@ -20032,6 +20158,11 @@
       "type": "static"
     },
     {
+      "source": "npm:@mongodb-js/saslprep",
+      "target": "npm:sparse-bitfield",
+      "type": "static"
+    },
+    {
       "source": "npm:@nestjs/common",
       "target": "npm:reflect-metadata",
       "type": "static"
@@ -20134,6 +20265,31 @@
     {
       "source": "npm:@nestjs/core",
       "target": "npm:uid",
+      "type": "static"
+    },
+    {
+      "source": "npm:@nestjs/mongoose",
+      "target": "npm:@nestjs/common",
+      "type": "static"
+    },
+    {
+      "source": "npm:@nestjs/mongoose",
+      "target": "npm:@nestjs/core",
+      "type": "static"
+    },
+    {
+      "source": "npm:@nestjs/mongoose",
+      "target": "npm:mongoose",
+      "type": "static"
+    },
+    {
+      "source": "npm:@nestjs/mongoose",
+      "target": "npm:reflect-metadata",
+      "type": "static"
+    },
+    {
+      "source": "npm:@nestjs/mongoose",
+      "target": "npm:rxjs",
       "type": "static"
     },
     {
@@ -24394,6 +24550,16 @@
     {
       "source": "npm:@types/sockjs",
       "target": "npm:@types/node",
+      "type": "static"
+    },
+    {
+      "source": "npm:@types/whatwg-url",
+      "target": "npm:@types/node",
+      "type": "static"
+    },
+    {
+      "source": "npm:@types/whatwg-url",
+      "target": "npm:@types/webidl-conversions",
       "type": "static"
     },
     {
@@ -32042,6 +32208,71 @@
       "type": "static"
     },
     {
+      "source": "npm:mongodb",
+      "target": "npm:@mongodb-js/saslprep",
+      "type": "static"
+    },
+    {
+      "source": "npm:mongodb",
+      "target": "npm:bson",
+      "type": "static"
+    },
+    {
+      "source": "npm:mongodb",
+      "target": "npm:mongodb-connection-string-url",
+      "type": "static"
+    },
+    {
+      "source": "npm:mongodb-connection-string-url",
+      "target": "npm:@types/whatwg-url",
+      "type": "static"
+    },
+    {
+      "source": "npm:mongodb-connection-string-url",
+      "target": "npm:whatwg-url",
+      "type": "static"
+    },
+    {
+      "source": "npm:mongoose",
+      "target": "npm:bson",
+      "type": "static"
+    },
+    {
+      "source": "npm:mongoose",
+      "target": "npm:kareem",
+      "type": "static"
+    },
+    {
+      "source": "npm:mongoose",
+      "target": "npm:mongodb",
+      "type": "static"
+    },
+    {
+      "source": "npm:mongoose",
+      "target": "npm:mpath",
+      "type": "static"
+    },
+    {
+      "source": "npm:mongoose",
+      "target": "npm:mquery",
+      "type": "static"
+    },
+    {
+      "source": "npm:mongoose",
+      "target": "npm:ms@2.1.3",
+      "type": "static"
+    },
+    {
+      "source": "npm:mongoose",
+      "target": "npm:sift",
+      "type": "static"
+    },
+    {
+      "source": "npm:mquery",
+      "target": "npm:debug",
+      "type": "static"
+    },
+    {
       "source": "npm:multer",
       "target": "npm:append-field",
       "type": "static"
@@ -34169,6 +34400,11 @@
     {
       "source": "npm:source-map-support",
       "target": "npm:source-map",
+      "type": "static"
+    },
+    {
+      "source": "npm:sparse-bitfield",
+      "target": "npm:memory-pager",
       "type": "static"
     },
     {

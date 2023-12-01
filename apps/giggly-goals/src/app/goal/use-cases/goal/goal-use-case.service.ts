@@ -1,10 +1,12 @@
 import { Injectable } from '@nestjs/common';
 import { Goal } from '../../domain/entities';
+import { IDataProvider } from '../../domain/abstracts/data-provider.abstract';
 
 @Injectable()
 export class GoalUseCaseService {
-  getAllGoals(): Promise<Goal> {
-    throw new Error('Method not implemented');
+  constructor(private dataProvider: IDataProvider) {}
+  getAllGoals(): Promise<Goal[]> {
+    return this.dataProvider.goals.getAll();
   }
 
   getGoalById(): Promise<Goal> {
