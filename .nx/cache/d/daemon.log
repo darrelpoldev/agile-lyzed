@@ -19088,3 +19088,22 @@ Error: Failed to process project dependencies with "nx-js-graph-plugin".
 [NX Daemon Server] - 2023-12-01T23:18:17.377Z - [WATCHER]: Stopping the watcher for /Users/DarrelJade/Documents/apps/agile-lyzed (sources)
 [NX Daemon Server] - 2023-12-01T23:18:17.377Z - [WATCHER]: Stopping the watcher for /Users/DarrelJade/Documents/apps/agile-lyzed (outputs)
 [NX Daemon Server] - 2023-12-01T23:18:17.377Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2023-12-02T00:07:19.132Z - Started listening on: /var/folders/nn/nv604nhs02g2rmm39zgg4wr40000gp/T/ca0622ce39e973bb86d1/d.sock
+[NX Daemon Server] - 2023-12-02T00:07:19.142Z - [WATCHER]: Subscribed to changes within: /Users/DarrelJade/Documents/apps/agile-lyzed (native)
+[NX Daemon Server] - 2023-12-02T00:07:19.142Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-02T00:07:19.143Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-12-02T00:07:19.144Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-02T00:07:19.145Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-02T00:07:19.185Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T00:07:19.185Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T00:07:19.185Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T00:07:19.247Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-02T00:07:19.247Z - Time taken for 'total for creating and serializing project graph' 101.3906660079956ms
+[NX Daemon Server] - 2023-12-02T00:07:19.249Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-02T00:07:19.249Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 102. Response time: 2.
+[NX Daemon Server] - 2023-12-02T00:07:19.304Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-12-02T00:07:19.304Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-12-02T00:07:19.304Z - Handled HASH_TASKS. Handling time: 24. Response time: 0.
+[NX Daemon Server] - 2023-12-02T00:07:20.352Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T00:07:21.869Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T00:08:27.407Z - Closed a connection. Number of open connections: 0

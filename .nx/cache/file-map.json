@@ -10,10 +10,12 @@
     "@nestjs/common": "^10.0.2",
     "@nestjs/config": "^3.1.1",
     "@nestjs/core": "^10.0.2",
+    "@nestjs/mapped-types": "^2.0.4",
     "@nestjs/mongoose": "^10.0.2",
     "@nestjs/platform-express": "^10.0.2",
     "@swc/helpers": "~0.5.2",
     "axios": "^1.0.0",
+    "class-validator": "^0.14.0",
     "framer-motion": "^10.16.5",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
@@ -89,208 +91,6 @@
   "fileMap": {
     "nonProjectFiles": [],
     "projectFileMap": {
-      "giggly-goals": [
-        {
-          "file": "apps/giggly-goals/.env.sample",
-          "hash": "1761680941855401524"
-        },
-        {
-          "file": "apps/giggly-goals/.eslintrc.json",
-          "hash": "942885824144343268"
-        },
-        {
-          "file": "apps/giggly-goals/.gitignore",
-          "hash": "13603088859507085958"
-        },
-        {
-          "file": "apps/giggly-goals/jest.config.ts",
-          "hash": "1415787166258713885"
-        },
-        {
-          "file": "apps/giggly-goals/project.json",
-          "hash": "13923171428235780526"
-        },
-        {
-          "file": "apps/giggly-goals/src/app/app.module.ts",
-          "hash": "13162548428591032061",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/config"
-          ]
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/domain/abstracts/data-provider.abstract.ts",
-          "hash": "13862247861177601333"
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/domain/abstracts/generic-repository.abstract.ts",
-          "hash": "12657671174905762591"
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/domain/abstracts/index.ts",
-          "hash": "14746054015341654826"
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/domain/entities/goal.entity.ts",
-          "hash": "17215905998335771836"
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/domain/entities/index.ts",
-          "hash": "6162598712478395201"
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/domain/index.ts",
-          "hash": "14006205524854713805"
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-data-provider.module.ts",
-          "hash": "14977193083421685025",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/mongoose",
-            "npm:@nestjs/config"
-          ]
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-data-provider.service.spec.ts",
-          "hash": "17117159044164268205",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-data-provider.service.ts",
-          "hash": "9520575688728649310",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/mongoose",
-            "npm:mongoose"
-          ]
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/goal.module.ts",
-          "hash": "7719651389066285692",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/providers/index.ts",
-          "hash": "7916172803869101357"
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.module.ts",
-          "hash": "9533945711115603610",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.spec.ts",
-          "hash": "10023254647126629144",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts",
-          "hash": "2900881369694544801",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/use-cases/goal/index.ts",
-          "hash": "17907893651438879866"
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/use-cases/index.ts",
-          "hash": "13704048079040118420"
-        },
-        {
-          "file": "apps/giggly-goals/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/giggly-goals/src/main.ts",
-          "hash": "11205222914964382693",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/core"
-          ]
-        },
-        {
-          "file": "apps/giggly-goals/tsconfig.app.json",
-          "hash": "3171572500325445971"
-        },
-        {
-          "file": "apps/giggly-goals/tsconfig.json",
-          "hash": "3490524966360018312"
-        },
-        {
-          "file": "apps/giggly-goals/tsconfig.spec.json",
-          "hash": "11550347367511341917"
-        },
-        {
-          "file": "apps/giggly-goals/webpack.config.js",
-          "hash": "10619490397189790225",
-          "deps": [
-            "npm:@nx/webpack"
-          ]
-        },
-        {
-          "file": "apps/giggly-goals/src/app/config.ts",
-          "hash": "6303216600622470581"
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/models/goal.model.ts",
-          "hash": "14066962748193754563",
-          "deps": [
-            "npm:@nestjs/mongoose",
-            "npm:mongoose"
-          ]
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/models/indext.ts",
-          "hash": "15653563035070271860"
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts",
-          "hash": "7336845647164156575",
-          "deps": [
-            "npm:mongoose"
-          ]
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/providers/data-providers/data-provider.module.ts",
-          "hash": "15298668771592746912",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/providers/data-providers/index.ts",
-          "hash": "4280414316513175873"
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/controllers/index.ts",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/controllers/goals/goals.controller.ts",
-          "hash": "17936923783703721088",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/giggly-goals/src/app/goal/controllers/goals/goals.controller.spec.ts",
-          "hash": "14398887077088222801",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        }
-      ],
       "agile-lyzed-api": [
         {
           "file": "apps/agile-lyzed-api/.env.sample",
@@ -382,6 +182,92 @@
           "deps": [
             "npm:@nx/webpack"
           ]
+        }
+      ],
+      "agile-lyzed-app-e2e": [
+        {
+          "file": "apps/agile-lyzed-app-e2e/.eslintrc.json",
+          "hash": "17879264411974429390"
+        },
+        {
+          "file": "apps/agile-lyzed-app-e2e/cypress.config.ts",
+          "hash": "16639359929265687390",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-app-e2e/project.json",
+          "hash": "5322974411750220526"
+        },
+        {
+          "file": "apps/agile-lyzed-app-e2e/src/e2e/app.cy.ts",
+          "hash": "10822136693331586180"
+        },
+        {
+          "file": "apps/agile-lyzed-app-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "apps/agile-lyzed-app-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/agile-lyzed-app-e2e/src/support/commands.ts",
+          "hash": "5397443931564808659"
+        },
+        {
+          "file": "apps/agile-lyzed-app-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "apps/agile-lyzed-app-e2e/tsconfig.json",
+          "hash": "10740392072068377465"
+        }
+      ],
+      "agile-lyzed-api-e2e": [
+        {
+          "file": "apps/agile-lyzed-api-e2e/.eslintrc.json",
+          "hash": "942885824144343268"
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/jest.config.ts",
+          "hash": "10767702087488859393"
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/project.json",
+          "hash": "18399933910823782859"
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/src/agile-lyzed-api/agile-lyzed-api.spec.ts",
+          "hash": "110394728024017389",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/src/support/global-setup.ts",
+          "hash": "2568409276037275290"
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/src/support/global-teardown.ts",
+          "hash": "5275447082211835490"
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/src/support/test-setup.ts",
+          "hash": "10984585515912236441",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/tsconfig.json",
+          "hash": "15443990093475294480"
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/tsconfig.spec.json",
+          "hash": "14954872453723519891"
         }
       ],
       "agile-lyzed-app": [
@@ -561,48 +447,6 @@
           ]
         }
       ],
-      "agile-lyzed-app-e2e": [
-        {
-          "file": "apps/agile-lyzed-app-e2e/.eslintrc.json",
-          "hash": "17879264411974429390"
-        },
-        {
-          "file": "apps/agile-lyzed-app-e2e/cypress.config.ts",
-          "hash": "16639359929265687390",
-          "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
-          ]
-        },
-        {
-          "file": "apps/agile-lyzed-app-e2e/project.json",
-          "hash": "5322974411750220526"
-        },
-        {
-          "file": "apps/agile-lyzed-app-e2e/src/e2e/app.cy.ts",
-          "hash": "10822136693331586180"
-        },
-        {
-          "file": "apps/agile-lyzed-app-e2e/src/fixtures/example.json",
-          "hash": "11785586596216172004"
-        },
-        {
-          "file": "apps/agile-lyzed-app-e2e/src/support/app.po.ts",
-          "hash": "11157016311132186162"
-        },
-        {
-          "file": "apps/agile-lyzed-app-e2e/src/support/commands.ts",
-          "hash": "5397443931564808659"
-        },
-        {
-          "file": "apps/agile-lyzed-app-e2e/src/support/e2e.ts",
-          "hash": "1054106023200826784"
-        },
-        {
-          "file": "apps/agile-lyzed-app-e2e/tsconfig.json",
-          "hash": "10740392072068377465"
-        }
-      ],
       "giggly-goals-e2e": [
         {
           "file": "apps/giggly-goals-e2e/.eslintrc.json",
@@ -644,50 +488,6 @@
         },
         {
           "file": "apps/giggly-goals-e2e/tsconfig.spec.json",
-          "hash": "14954872453723519891"
-        }
-      ],
-      "agile-lyzed-api-e2e": [
-        {
-          "file": "apps/agile-lyzed-api-e2e/.eslintrc.json",
-          "hash": "942885824144343268"
-        },
-        {
-          "file": "apps/agile-lyzed-api-e2e/jest.config.ts",
-          "hash": "10767702087488859393"
-        },
-        {
-          "file": "apps/agile-lyzed-api-e2e/project.json",
-          "hash": "18399933910823782859"
-        },
-        {
-          "file": "apps/agile-lyzed-api-e2e/src/agile-lyzed-api/agile-lyzed-api.spec.ts",
-          "hash": "110394728024017389",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "apps/agile-lyzed-api-e2e/src/support/global-setup.ts",
-          "hash": "2568409276037275290"
-        },
-        {
-          "file": "apps/agile-lyzed-api-e2e/src/support/global-teardown.ts",
-          "hash": "5275447082211835490"
-        },
-        {
-          "file": "apps/agile-lyzed-api-e2e/src/support/test-setup.ts",
-          "hash": "10984585515912236441",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "apps/agile-lyzed-api-e2e/tsconfig.json",
-          "hash": "15443990093475294480"
-        },
-        {
-          "file": "apps/agile-lyzed-api-e2e/tsconfig.spec.json",
           "hash": "14954872453723519891"
         }
       ],
@@ -752,11 +552,11 @@
         },
         {
           "file": "package-lock.json",
-          "hash": "11152566381375445976"
+          "hash": "14143465656279858258"
         },
         {
           "file": "package.json",
-          "hash": "7826692769598942431",
+          "hash": "15460410339034052943",
           "deps": [
             "npm:@chakra-ui/icons",
             "npm:@chakra-ui/next-js",
@@ -766,10 +566,12 @@
             "npm:@nestjs/common",
             "npm:@nestjs/config",
             "npm:@nestjs/core",
+            "npm:@nestjs/mapped-types",
             "npm:@nestjs/mongoose",
             "npm:@nestjs/platform-express",
             "npm:@swc/helpers",
             "npm:axios",
+            "npm:class-validator",
             "npm:framer-motion",
             "npm:localforage",
             "npm:match-sorter",
@@ -875,6 +677,216 @@
           "deps": [
             "npm:vite",
             "npm:@nx/vite"
+          ]
+        }
+      ],
+      "giggly-goals": [
+        {
+          "file": "apps/giggly-goals/.env.sample",
+          "hash": "1761680941855401524"
+        },
+        {
+          "file": "apps/giggly-goals/.eslintrc.json",
+          "hash": "942885824144343268"
+        },
+        {
+          "file": "apps/giggly-goals/.gitignore",
+          "hash": "7017456405475698020"
+        },
+        {
+          "file": "apps/giggly-goals/jest.config.ts",
+          "hash": "1415787166258713885"
+        },
+        {
+          "file": "apps/giggly-goals/project.json",
+          "hash": "13923171428235780526"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/app.module.ts",
+          "hash": "13162548428591032061",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/config.ts",
+          "hash": "6303216600622470581"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/controllers/goals/goals.controller.spec.ts",
+          "hash": "14398887077088222801",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/controllers/goals/goals.controller.ts",
+          "hash": "17285662549920868078",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/controllers/index.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/domain/abstracts/data-provider.abstract.ts",
+          "hash": "13862247861177601333"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/domain/abstracts/generic-repository.abstract.ts",
+          "hash": "12657671174905762591"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/domain/abstracts/index.ts",
+          "hash": "14746054015341654826"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/domain/entities/goal.entity.ts",
+          "hash": "17215905998335771836"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/domain/entities/index.ts",
+          "hash": "6162598712478395201"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/domain/index.ts",
+          "hash": "14006205524854713805"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/models/goal.model.ts",
+          "hash": "14066962748193754563",
+          "deps": [
+            "npm:@nestjs/mongoose",
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/models/indext.ts",
+          "hash": "15653563035070271860"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-data-provider.module.ts",
+          "hash": "14977193083421685025",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/mongoose",
+            "npm:@nestjs/config"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-data-provider.service.spec.ts",
+          "hash": "17117159044164268205",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-data-provider.service.ts",
+          "hash": "9520575688728649310",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/mongoose",
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts",
+          "hash": "7336845647164156575",
+          "deps": [
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/goal.module.ts",
+          "hash": "7719651389066285692",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/providers/data-providers/data-provider.module.ts",
+          "hash": "15298668771592746912",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/providers/data-providers/index.ts",
+          "hash": "4280414316513175873"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/providers/index.ts",
+          "hash": "7916172803869101357"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/use-cases/goal/dtos/goal.dtos.ts",
+          "hash": "8776245093158703819",
+          "deps": [
+            "npm:class-validator",
+            "npm:@nestjs/mapped-types"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.module.ts",
+          "hash": "9533945711115603610",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.spec.ts",
+          "hash": "10023254647126629144",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts",
+          "hash": "4557817119003318988",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/use-cases/goal/index.ts",
+          "hash": "17907893651438879866"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/use-cases/index.ts",
+          "hash": "13704048079040118420"
+        },
+        {
+          "file": "apps/giggly-goals/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/giggly-goals/src/main.ts",
+          "hash": "11205222914964382693",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/tsconfig.app.json",
+          "hash": "3171572500325445971"
+        },
+        {
+          "file": "apps/giggly-goals/tsconfig.json",
+          "hash": "3490524966360018312"
+        },
+        {
+          "file": "apps/giggly-goals/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        },
+        {
+          "file": "apps/giggly-goals/webpack.config.js",
+          "hash": "10619490397189790225",
+          "deps": [
+            "npm:@nx/webpack"
           ]
         }
       ]
