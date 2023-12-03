@@ -1,36 +1,68 @@
 {
   "version": "6.0",
-  "nxVersion": "16.10.0",
+  "nxVersion": "17.1.2",
   "deps": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/next-js": "^2.2.0",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@nestjs/common": "^10.0.2",
+    "@nestjs/config": "^3.1.1",
+    "@nestjs/core": "^10.0.2",
+    "@nestjs/mapped-types": "^2.0.4",
+    "@nestjs/mongoose": "^10.0.2",
+    "@nestjs/platform-express": "^10.0.2",
+    "@swc/helpers": "~0.5.2",
+    "axios": "^1.0.0",
+    "class-validator": "^0.14.0",
+    "framer-motion": "^10.16.5",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "mongoose": "^8.0.2",
     "next": "13.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-router-dom": "^6.20.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.0",
+    "sort-by": "^1.2.0",
     "tslib": "^2.3.0",
-    "@nx/cypress": "17.0.3",
-    "@nx/eslint-plugin": "16.10.0",
-    "@nx/jest": "16.10.0",
-    "@nx/js": "17.0.3",
-    "@nx/linter": "16.10.0",
-    "@nx/next": "^17.0.3",
-    "@nx/react": "17.0.3",
-    "@nx/vite": "16.10.0",
-    "@nx/workspace": "16.10.0",
+    "@babel/core": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "@nestjs/schematics": "^10.0.1",
+    "@nestjs/testing": "^10.0.2",
+    "@nx/cypress": "17.1.2",
+    "@nx/eslint": "17.1.2",
+    "@nx/eslint-plugin": "17.1.2",
+    "@nx/jest": "17.1.3",
+    "@nx/js": "17.1.3",
+    "@nx/nest": "^17.1.3",
+    "@nx/next": "17.1.2",
+    "@nx/node": "17.1.3",
+    "@nx/react": "17.1.2",
+    "@nx/vite": "17.1.2",
+    "@nx/webpack": "17.1.3",
+    "@nx/workspace": "17.1.2",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
+    "@svgr/webpack": "^8.0.1",
     "@swc-node/register": "~1.6.7",
+    "@swc/cli": "~0.1.62",
     "@swc/core": "~1.3.85",
     "@testing-library/react": "14.0.0",
     "@types/jest": "^29.4.0",
     "@types/node": "18.14.2",
     "@types/react": "18.2.33",
     "@types/react-dom": "18.2.14",
-    "@typescript-eslint/eslint-plugin": "^5.60.1",
-    "@typescript-eslint/parser": "^5.60.1",
+    "@typescript-eslint/eslint-plugin": "6.11.0",
+    "@typescript-eslint/parser": "6.11.0",
     "@vitest/coverage-c8": "~0.32.0",
     "@vitest/ui": "~0.32.0",
     "babel-jest": "^29.4.1",
     "cypress": "^13.0.0",
     "eslint": "~8.46.0",
     "eslint-config-next": "13.4.1",
-    "eslint-config-prettier": "8.1.0",
+    "eslint-config-prettier": "9.0.0",
     "eslint-plugin-cypress": "^2.13.4",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-jsx-a11y": "6.7.1",
@@ -38,12 +70,15 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "jest": "^29.4.1",
     "jest-environment-jsdom": "^29.4.1",
-    "nx": "16.10.0",
-    "nx-cloud": "latest",
+    "jest-environment-node": "^29.4.1",
+    "nx": "17.1.2",
     "prettier": "^2.6.2",
+    "react-icons": "^4.11.0",
+    "react-refresh": "^0.10.0",
     "ts-jest": "^29.1.0",
     "ts-node": "10.9.1",
-    "typescript": "~5.1.3",
+    "typescript": "5.2.2",
+    "url-loader": "^4.1.1",
     "vite": "~4.3.9",
     "vitest": "~0.32.0"
   },
@@ -56,6 +91,406 @@
   "fileMap": {
     "nonProjectFiles": [],
     "projectFileMap": {
+      "agile-lyzed-api": [
+        {
+          "file": "apps/agile-lyzed-api/.env.sample",
+          "hash": "9282749051719132522"
+        },
+        {
+          "file": "apps/agile-lyzed-api/.eslintrc.json",
+          "hash": "942885824144343268"
+        },
+        {
+          "file": "apps/agile-lyzed-api/.gitignore",
+          "hash": "13603088859507085958"
+        },
+        {
+          "file": "apps/agile-lyzed-api/README.md",
+          "hash": "11419751806793084053"
+        },
+        {
+          "file": "apps/agile-lyzed-api/jest.config.ts",
+          "hash": "10628219105819022231"
+        },
+        {
+          "file": "apps/agile-lyzed-api/project.json",
+          "hash": "16317047559251867908"
+        },
+        {
+          "file": "apps/agile-lyzed-api/src/app/app.controller.spec.ts",
+          "hash": "9499997688052526633",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-api/src/app/app.controller.ts",
+          "hash": "9005150069945785676",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-api/src/app/app.module.ts",
+          "hash": "8433295588292414666",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-api/src/app/app.service.spec.ts",
+          "hash": "8587461140686713758",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-api/src/app/app.service.ts",
+          "hash": "9967902337593410053",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-api/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/agile-lyzed-api/src/main.ts",
+          "hash": "11205222914964382693",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-api/tsconfig.app.json",
+          "hash": "3171572500325445971"
+        },
+        {
+          "file": "apps/agile-lyzed-api/tsconfig.json",
+          "hash": "3490524966360018312"
+        },
+        {
+          "file": "apps/agile-lyzed-api/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        },
+        {
+          "file": "apps/agile-lyzed-api/webpack.config.js",
+          "hash": "10619490397189790225",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
+        }
+      ],
+      "agile-lyzed-app-e2e": [
+        {
+          "file": "apps/agile-lyzed-app-e2e/.eslintrc.json",
+          "hash": "17879264411974429390"
+        },
+        {
+          "file": "apps/agile-lyzed-app-e2e/cypress.config.ts",
+          "hash": "16639359929265687390",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-app-e2e/project.json",
+          "hash": "5322974411750220526"
+        },
+        {
+          "file": "apps/agile-lyzed-app-e2e/src/e2e/app.cy.ts",
+          "hash": "10822136693331586180"
+        },
+        {
+          "file": "apps/agile-lyzed-app-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "apps/agile-lyzed-app-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/agile-lyzed-app-e2e/src/support/commands.ts",
+          "hash": "5397443931564808659"
+        },
+        {
+          "file": "apps/agile-lyzed-app-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "apps/agile-lyzed-app-e2e/tsconfig.json",
+          "hash": "10740392072068377465"
+        }
+      ],
+      "agile-lyzed-api-e2e": [
+        {
+          "file": "apps/agile-lyzed-api-e2e/.eslintrc.json",
+          "hash": "942885824144343268"
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/jest.config.ts",
+          "hash": "10767702087488859393"
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/project.json",
+          "hash": "18399933910823782859"
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/src/agile-lyzed-api/agile-lyzed-api.spec.ts",
+          "hash": "110394728024017389",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/src/support/global-setup.ts",
+          "hash": "2568409276037275290"
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/src/support/global-teardown.ts",
+          "hash": "5275447082211835490"
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/src/support/test-setup.ts",
+          "hash": "10984585515912236441",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/tsconfig.json",
+          "hash": "15443990093475294480"
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/tsconfig.spec.json",
+          "hash": "14954872453723519891"
+        }
+      ],
+      "agile-lyzed-app": [
+        {
+          "file": "apps/agile-lyzed-app/.babelrc",
+          "hash": "13020124393823981135"
+        },
+        {
+          "file": "apps/agile-lyzed-app/.eslintrc.json",
+          "hash": "889646198666480193"
+        },
+        {
+          "file": "apps/agile-lyzed-app/jest.config.ts",
+          "hash": "11427678137552480616"
+        },
+        {
+          "file": "apps/agile-lyzed-app/project.json",
+          "hash": "3681042798875147813"
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/app/about-me/about-me.module.css",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/app/about-me/about-me.spec.tsx",
+          "hash": "2561079339398502100",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/app/about-me/about-me.tsx",
+          "hash": "145760354826363456"
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/app/app.module.css",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/app/app.spec.tsx",
+          "hash": "17896228239033373202",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/app/app.tsx",
+          "hash": "3918407422455192422",
+          "deps": [
+            "npm:@chakra-ui/react"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/app/blogs/blogs.module.css",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/app/blogs/blogs.spec.tsx",
+          "hash": "7081010066109656076",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/app/blogs/blogs.tsx",
+          "hash": "12958220484908306886"
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/app/nav-bar/nav-bar.module.css",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/app/nav-bar/nav-bar.spec.tsx",
+          "hash": "3256331042590440252",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/app/nav-bar/nav-bar.tsx",
+          "hash": "5007482543910405268",
+          "deps": [
+            "npm:@chakra-ui/react",
+            "npm:@chakra-ui/icons",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/app/nx-welcome.tsx",
+          "hash": "4389251527819925043"
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/app/tools/tools.module.css",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/app/tools/tools.spec.tsx",
+          "hash": "15852076872109481503",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/app/tools/tools.tsx",
+          "hash": "13343545034819924488"
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/environments/environment.prod.ts",
+          "hash": "10220522844224226756"
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/environments/environment.ts",
+          "hash": "11309522437153898482"
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/index.html",
+          "hash": "14333473162565127943"
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/layout.tsx",
+          "hash": "9012925641366497425",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom",
+            "npm:@chakra-ui/react"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/main.tsx",
+          "hash": "9957508790012388868",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "npm:@chakra-ui/react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/routerError.tsx",
+          "hash": "6634622125245452157",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom",
+            "npm:@chakra-ui/react"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-app/src/styles.css",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "apps/agile-lyzed-app/tsconfig.app.json",
+          "hash": "15147195313780277677"
+        },
+        {
+          "file": "apps/agile-lyzed-app/tsconfig.json",
+          "hash": "9850153468027031608"
+        },
+        {
+          "file": "apps/agile-lyzed-app/tsconfig.spec.json",
+          "hash": "8859575328606320387"
+        },
+        {
+          "file": "apps/agile-lyzed-app/webpack.config.js",
+          "hash": "1043731587818967490",
+          "deps": [
+            "npm:@nx/webpack",
+            "npm:@nx/react"
+          ]
+        }
+      ],
+      "giggly-goals-e2e": [
+        {
+          "file": "apps/giggly-goals-e2e/.eslintrc.json",
+          "hash": "942885824144343268"
+        },
+        {
+          "file": "apps/giggly-goals-e2e/jest.config.ts",
+          "hash": "18092827361970010171"
+        },
+        {
+          "file": "apps/giggly-goals-e2e/project.json",
+          "hash": "12724437446100861471"
+        },
+        {
+          "file": "apps/giggly-goals-e2e/src/giggly-goals/giggly-goals.spec.ts",
+          "hash": "110394728024017389",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals-e2e/src/support/global-setup.ts",
+          "hash": "2568409276037275290"
+        },
+        {
+          "file": "apps/giggly-goals-e2e/src/support/global-teardown.ts",
+          "hash": "5275447082211835490"
+        },
+        {
+          "file": "apps/giggly-goals-e2e/src/support/test-setup.ts",
+          "hash": "10984585515912236441",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals-e2e/tsconfig.json",
+          "hash": "15443990093475294480"
+        },
+        {
+          "file": "apps/giggly-goals-e2e/tsconfig.spec.json",
+          "hash": "14954872453723519891"
+        }
+      ],
       "agile-lyzed": [
         {
           "file": ".eslintignore",
@@ -71,19 +506,11 @@
         },
         {
           "file": ".gitignore",
-          "hash": "4037654227863647172"
-        },
-        {
-          "file": ".nx/cache/d/daemon.log",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": ".nx/cache/d/server-process.json",
-          "hash": "9903768531964690418"
+          "hash": "12041877293097270128"
         },
         {
           "file": ".prettierignore",
-          "hash": "8865097869854018350"
+          "hash": "16448050467312557263"
         },
         {
           "file": ".prettierrc",
@@ -94,8 +521,12 @@
           "hash": "4637156562308165301"
         },
         {
+          "file": ".vscode/settings.json",
+          "hash": "1590259971261653110"
+        },
+        {
           "file": "README.md",
-          "hash": "3448518875596756976"
+          "hash": "7785071961894185319"
         },
         {
           "file": "jest.config.ts",
@@ -112,31 +543,67 @@
           ]
         },
         {
+          "file": "migrations.json",
+          "hash": "3861974092210007990"
+        },
+        {
           "file": "nx.json",
-          "hash": "16834472311628977231"
+          "hash": "17563329866260771466"
         },
         {
           "file": "package-lock.json",
-          "hash": "18052678294489193936"
+          "hash": "14143465656279858258"
         },
         {
           "file": "package.json",
-          "hash": "4677665105148856493",
+          "hash": "15460410339034052943",
           "deps": [
+            "npm:@chakra-ui/icons",
+            "npm:@chakra-ui/next-js",
+            "npm:@chakra-ui/react",
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@nestjs/core",
+            "npm:@nestjs/mapped-types",
+            "npm:@nestjs/mongoose",
+            "npm:@nestjs/platform-express",
+            "npm:@swc/helpers",
+            "npm:axios",
+            "npm:class-validator",
+            "npm:framer-motion",
+            "npm:localforage",
+            "npm:match-sorter",
+            "npm:mongoose",
             "npm:next",
             "npm:react",
             "npm:react-dom",
+            "npm:react-router-dom",
+            "npm:reflect-metadata",
+            "npm:rxjs",
+            "npm:sort-by",
             "npm:tslib",
+            "npm:@babel/core",
+            "npm:@babel/preset-react",
+            "npm:@nestjs/schematics",
+            "npm:@nestjs/testing",
             "npm:@nx/cypress",
+            "npm:@nx/eslint",
             "npm:@nx/eslint-plugin",
             "npm:@nx/jest",
             "npm:@nx/js",
-            "npm:@nx/linter",
+            "npm:@nx/nest",
             "npm:@nx/next",
+            "npm:@nx/node",
             "npm:@nx/react",
             "npm:@nx/vite",
+            "npm:@nx/webpack",
             "npm:@nx/workspace",
+            "npm:@pmmmwh/react-refresh-webpack-plugin",
+            "npm:@svgr/webpack",
             "npm:@swc-node/register",
+            "npm:@swc/cli",
             "npm:@swc/core",
             "npm:@testing-library/react",
             "npm:@types/jest",
@@ -159,19 +626,22 @@
             "npm:eslint-plugin-react-hooks",
             "npm:jest",
             "npm:jest-environment-jsdom",
+            "npm:jest-environment-node",
             "npm:nx",
-            "npm:nx-cloud",
             "npm:prettier",
+            "npm:react-icons",
+            "npm:react-refresh",
             "npm:ts-jest",
             "npm:ts-node",
             "npm:typescript",
+            "npm:url-loader",
             "npm:vite",
             "npm:vitest"
           ]
         },
         {
           "file": "project.json",
-          "hash": "14499491144217543017"
+          "hash": "18138707411970771163"
         },
         {
           "file": "src/index.ts",
@@ -186,8 +656,12 @@
           "hash": "11815227179299036421"
         },
         {
+          "file": "tsconfig.base.json",
+          "hash": "16631399078393410737"
+        },
+        {
           "file": "tsconfig.json",
-          "hash": "8796048246989856792"
+          "hash": "9069685149630873369"
         },
         {
           "file": "tsconfig.lib.json",
@@ -204,153 +678,216 @@
             "npm:vite",
             "npm:@nx/vite"
           ]
-        },
-        {
-          "file": ".nx/cache/parsed-lock-file.json",
-          "hash": "7652025410420589682"
-        },
-        {
-          "file": ".nx/cache/project-graph.json",
-          "hash": "15061251861329961646"
-        },
-        {
-          "file": ".nx/cache/file-map.json",
-          "hash": "17096085917002600076"
-        },
-        {
-          "file": ".nx/cache/lockfile.hash",
-          "hash": "2964451210248862329"
-        },
-        {
-          "file": ".nx/cache/terminalOutputs/12991305698710615529",
-          "hash": "10365225865605817298"
-        },
-        {
-          "file": ".nx/cache/12991305698710615529.commit",
-          "hash": "4664556114322093609"
-        },
-        {
-          "file": ".nx/cache/12991305698710615529/terminalOutput",
-          "hash": "10365225865605817298"
-        },
-        {
-          "file": ".nx/cache/run.json",
-          "hash": "12336907466997343466"
-        },
-        {
-          "file": ".nx/cache/12991305698710615529/code",
-          "hash": "1838281907459330133"
-        },
-        {
-          "file": ".nx/cache/12991305698710615529/source",
-          "hash": "18207484978213849980"
         }
       ],
-      "agile-lyzed-app-e2e": [
+      "giggly-goals": [
         {
-          "file": "agile-lyzed-app-e2e/.eslintrc.json",
-          "hash": "6471846942302731693"
+          "file": "apps/giggly-goals/.env.sample",
+          "hash": "1761680941855401524"
         },
         {
-          "file": "agile-lyzed-app-e2e/cypress.config.ts",
-          "hash": "16639359929265687390",
+          "file": "apps/giggly-goals/.eslintrc.json",
+          "hash": "942885824144343268"
+        },
+        {
+          "file": "apps/giggly-goals/.gitignore",
+          "hash": "7017456405475698020"
+        },
+        {
+          "file": "apps/giggly-goals/jest.config.ts",
+          "hash": "1415787166258713885"
+        },
+        {
+          "file": "apps/giggly-goals/project.json",
+          "hash": "13923171428235780526"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/app.module.ts",
+          "hash": "13162548428591032061",
           "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
+            "npm:@nestjs/common",
+            "npm:@nestjs/config"
           ]
         },
         {
-          "file": "agile-lyzed-app-e2e/project.json",
-          "hash": "16345173659121256120"
+          "file": "apps/giggly-goals/src/app/config.ts",
+          "hash": "6303216600622470581"
         },
         {
-          "file": "agile-lyzed-app-e2e/src/e2e/app.cy.ts",
-          "hash": "10822136693331586180"
-        },
-        {
-          "file": "agile-lyzed-app-e2e/src/fixtures/example.json",
-          "hash": "11785586596216172004"
-        },
-        {
-          "file": "agile-lyzed-app-e2e/src/support/app.po.ts",
-          "hash": "11157016311132186162"
-        },
-        {
-          "file": "agile-lyzed-app-e2e/src/support/commands.ts",
-          "hash": "5397443931564808659"
-        },
-        {
-          "file": "agile-lyzed-app-e2e/src/support/e2e.ts",
-          "hash": "1054106023200826784"
-        },
-        {
-          "file": "agile-lyzed-app-e2e/tsconfig.json",
-          "hash": "14125977923036463922"
-        }
-      ],
-      "agile-lyzed-app": [
-        {
-          "file": "agile-lyzed-app/.eslintrc.json",
-          "hash": "6712871818523993089"
-        },
-        {
-          "file": "agile-lyzed-app/app/api/hello/route.ts",
-          "hash": "495073956729887886"
-        },
-        {
-          "file": "agile-lyzed-app/app/global.css",
-          "hash": "10943017421299445298"
-        },
-        {
-          "file": "agile-lyzed-app/app/layout.tsx",
-          "hash": "4138513831754585405"
-        },
-        {
-          "file": "agile-lyzed-app/app/page.module.css",
-          "hash": "4786619528779355986"
-        },
-        {
-          "file": "agile-lyzed-app/app/page.tsx",
-          "hash": "6365433485494118215"
-        },
-        {
-          "file": "agile-lyzed-app/index.d.ts",
-          "hash": "5498222895072842432"
-        },
-        {
-          "file": "agile-lyzed-app/jest.config.ts",
-          "hash": "1343996872076896798"
-        },
-        {
-          "file": "agile-lyzed-app/next-env.d.ts",
-          "hash": "5909181270615354023"
-        },
-        {
-          "file": "agile-lyzed-app/next.config.js",
-          "hash": "17252635002163063865",
+          "file": "apps/giggly-goals/src/app/goal/controllers/goals/goals.controller.spec.ts",
+          "hash": "14398887077088222801",
           "deps": [
-            "npm:@nx/next"
+            "npm:@nestjs/testing"
           ]
         },
         {
-          "file": "agile-lyzed-app/project.json",
-          "hash": "12579345367922177282"
+          "file": "apps/giggly-goals/src/app/goal/controllers/goals/goals.controller.ts",
+          "hash": "17285662549920868078",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
         },
         {
-          "file": "agile-lyzed-app/public/.gitkeep",
+          "file": "apps/giggly-goals/src/app/goal/controllers/index.ts",
           "hash": "3244421341483603138"
         },
         {
-          "file": "agile-lyzed-app/public/favicon.ico",
-          "hash": "9303420814833116677"
+          "file": "apps/giggly-goals/src/app/goal/domain/abstracts/data-provider.abstract.ts",
+          "hash": "13862247861177601333"
         },
         {
-          "file": "agile-lyzed-app/tsconfig.json",
-          "hash": "17827761665611093339"
+          "file": "apps/giggly-goals/src/app/goal/domain/abstracts/generic-repository.abstract.ts",
+          "hash": "12657671174905762591"
         },
         {
-          "file": "agile-lyzed-app/tsconfig.spec.json",
-          "hash": "8636949703417217507"
+          "file": "apps/giggly-goals/src/app/goal/domain/abstracts/index.ts",
+          "hash": "14746054015341654826"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/domain/entities/goal.entity.ts",
+          "hash": "17215905998335771836"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/domain/entities/index.ts",
+          "hash": "6162598712478395201"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/domain/index.ts",
+          "hash": "14006205524854713805"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/models/goal.model.ts",
+          "hash": "14066962748193754563",
+          "deps": [
+            "npm:@nestjs/mongoose",
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/models/indext.ts",
+          "hash": "15653563035070271860"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-data-provider.module.ts",
+          "hash": "14977193083421685025",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/mongoose",
+            "npm:@nestjs/config"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-data-provider.service.spec.ts",
+          "hash": "17117159044164268205",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-data-provider.service.ts",
+          "hash": "9520575688728649310",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/mongoose",
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts",
+          "hash": "7336845647164156575",
+          "deps": [
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/goal.module.ts",
+          "hash": "7719651389066285692",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/providers/data-providers/data-provider.module.ts",
+          "hash": "15298668771592746912",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/providers/data-providers/index.ts",
+          "hash": "4280414316513175873"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/providers/index.ts",
+          "hash": "7916172803869101357"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/use-cases/goal/dtos/goal.dtos.ts",
+          "hash": "8776245093158703819",
+          "deps": [
+            "npm:class-validator",
+            "npm:@nestjs/mapped-types"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.module.ts",
+          "hash": "9533945711115603610",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.spec.ts",
+          "hash": "10023254647126629144",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts",
+          "hash": "4557817119003318988",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/use-cases/goal/index.ts",
+          "hash": "17907893651438879866"
+        },
+        {
+          "file": "apps/giggly-goals/src/app/goal/use-cases/index.ts",
+          "hash": "13704048079040118420"
+        },
+        {
+          "file": "apps/giggly-goals/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/giggly-goals/src/main.ts",
+          "hash": "11205222914964382693",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals/tsconfig.app.json",
+          "hash": "3171572500325445971"
+        },
+        {
+          "file": "apps/giggly-goals/tsconfig.json",
+          "hash": "3490524966360018312"
+        },
+        {
+          "file": "apps/giggly-goals/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        },
+        {
+          "file": "apps/giggly-goals/webpack.config.js",
+          "hash": "10619490397189790225",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
         }
       ]
     }
