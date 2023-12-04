@@ -19107,3 +19107,225 @@ Error: Failed to process project dependencies with "nx-js-graph-plugin".
 [NX Daemon Server] - 2023-12-02T00:07:20.352Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2023-12-02T00:07:21.869Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2023-12-02T00:08:27.407Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-04T03:00:42.661Z - Started listening on: /var/folders/nn/nv604nhs02g2rmm39zgg4wr40000gp/T/ca0622ce39e973bb86d1/d.sock
+[NX Daemon Server] - 2023-12-04T03:00:42.666Z - [WATCHER]: Subscribed to changes within: /Users/DarrelJade/Documents/apps/agile-lyzed (native)
+[NX Daemon Server] - 2023-12-04T03:00:42.667Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-04T03:00:42.668Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-12-04T03:00:42.670Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-04T03:00:42.744Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:00:42.744Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:00:42.744Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:00:42.795Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-04T03:00:42.798Z - Time taken for 'total for creating and serializing project graph' 125.55041699999128ms
+[NX Daemon Server] - 2023-12-04T03:00:42.798Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-04T03:00:42.816Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-04T03:00:42.817Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 125. Response time: 22.
+[NX Daemon Server] - 2023-12-04T03:00:42.822Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-04T03:00:42.822Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-04T03:00:42.824Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-04T03:00:42.824Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-04T03:00:42.824Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2023-12-04T03:00:42.825Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2023-12-04T03:00:42.825Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2023-12-04T03:03:07.729Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:03:07.730Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:03:07.850Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:03:07.850Z - [REQUEST]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts
+[NX Daemon Server] - 2023-12-04T03:03:07.850Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:03:07.887Z - Time taken for 'hash changed files from watcher' 1.9283750000176951ms
+[NX Daemon Server] - 2023-12-04T03:03:15.964Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:03:15.965Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:03:16.153Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:03:16.153Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:03:16.174Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:03:16.174Z - [REQUEST]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts
+[NX Daemon Server] - 2023-12-04T03:03:16.174Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:03:16.203Z - Time taken for 'hash changed files from watcher' 0.2232920000096783ms
+[NX Daemon Server] - 2023-12-04T03:03:16.287Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:03:16.287Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:03:16.698Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:03:16.699Z - [REQUEST]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts
+[NX Daemon Server] - 2023-12-04T03:03:16.699Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:03:16.728Z - Time taken for 'hash changed files from watcher' 0.341167000005953ms
+[NX Daemon Server] - 2023-12-04T03:03:20.353Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:03:20.353Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:03:20.546Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:03:20.547Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:03:21.172Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:03:21.172Z - [REQUEST]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts
+[NX Daemon Server] - 2023-12-04T03:03:21.172Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:03:21.214Z - Time taken for 'hash changed files from watcher' 0.6653750000405125ms
+[NX Daemon Server] - 2023-12-04T03:03:26.319Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-12-04T03:03:26.320Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-04T03:03:26.321Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-12-04T03:03:26.322Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-04T03:03:26.322Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-04T03:03:26.324Z - Time taken for 'total for creating and serializing project graph' 0.2086669999989681ms
+[NX Daemon Server] - 2023-12-04T03:03:26.326Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-04T03:03:26.326Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 4.
+[NX Daemon Server] - 2023-12-04T03:03:26.408Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-12-04T03:03:26.408Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-12-04T03:03:26.408Z - Handled HASH_TASKS. Handling time: 43. Response time: 0.
+[NX Daemon Server] - 2023-12-04T03:03:27.131Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:03:28.713Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:04:22.044Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-04T03:04:23.174Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-12-04T03:04:23.175Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-04T03:04:23.175Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-12-04T03:04:23.178Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-04T03:04:23.178Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-04T03:04:23.180Z - Time taken for 'total for creating and serializing project graph' 0.28208399994764477ms
+[NX Daemon Server] - 2023-12-04T03:04:23.183Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-04T03:04:23.183Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 5.
+[NX Daemon Server] - 2023-12-04T03:04:23.213Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-12-04T03:04:23.222Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-12-04T03:04:23.222Z - Handled HASH_TASKS. Handling time: 5. Response time: 9.
+[NX Daemon Server] - 2023-12-04T03:04:23.769Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:04:25.263Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:05:22.979Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:05:22.979Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:05:23.096Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:05:23.096Z - [REQUEST]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts
+[NX Daemon Server] - 2023-12-04T03:05:23.096Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:05:23.131Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:05:23.131Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:05:23.131Z - Time taken for 'hash changed files from watcher' 1.3699580000247806ms
+[NX Daemon Server] - 2023-12-04T03:05:23.344Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:05:23.344Z - [REQUEST]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts
+[NX Daemon Server] - 2023-12-04T03:05:23.344Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:05:23.374Z - Time taken for 'hash changed files from watcher' 0.33654200000455603ms
+[NX Daemon Server] - 2023-12-04T03:06:04.472Z - [WATCHER]: apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts was modified
+[NX Daemon Server] - 2023-12-04T03:06:04.473Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:06:04.593Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:06:04.628Z - [WATCHER]: apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts was modified
+[NX Daemon Server] - 2023-12-04T03:06:04.903Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:06:04.903Z - [REQUEST]: apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts
+[NX Daemon Server] - 2023-12-04T03:06:04.903Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:06:04.948Z - Time taken for 'hash changed files from watcher' 1.9296669999603182ms
+[NX Daemon Server] - 2023-12-04T03:06:08.577Z - [WATCHER]: apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts was modified
+[NX Daemon Server] - 2023-12-04T03:06:08.577Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:06:08.699Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:06:08.731Z - [WATCHER]: apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts was modified
+[NX Daemon Server] - 2023-12-04T03:06:09.391Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:06:09.391Z - [REQUEST]: apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts
+[NX Daemon Server] - 2023-12-04T03:06:09.391Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:06:09.416Z - Time taken for 'hash changed files from watcher' 0.7634160000015981ms
+[NX Daemon Server] - 2023-12-04T03:06:32.147Z - Started listening on: /var/folders/nn/nv604nhs02g2rmm39zgg4wr40000gp/T/ca0622ce39e973bb86d1/d.sock
+[NX Daemon Server] - 2023-12-04T03:06:32.152Z - [WATCHER]: Subscribed to changes within: /Users/DarrelJade/Documents/apps/agile-lyzed (native)
+[NX Daemon Server] - 2023-12-04T03:06:32.153Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-04T03:06:32.153Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-12-04T03:06:32.155Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-04T03:06:32.187Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:06:32.187Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:06:32.187Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:06:32.238Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-04T03:06:32.242Z - Time taken for 'total for creating and serializing project graph' 83.05537499999627ms
+[NX Daemon Server] - 2023-12-04T03:06:32.242Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-04T03:06:32.251Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-04T03:06:32.252Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 83. Response time: 14.
+[NX Daemon Server] - 2023-12-04T03:06:32.255Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-04T03:06:32.255Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-04T03:06:32.256Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-04T03:06:32.256Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-04T03:06:32.257Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2023-12-04T03:06:32.257Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2023-12-04T03:06:32.257Z - Handled REQUEST_FILE_DATA. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2023-12-04T03:07:05.141Z - [WATCHER]: apps/giggly-goals/src/app/goal/controllers/goals/goals.controller.ts was modified
+[NX Daemon Server] - 2023-12-04T03:07:05.142Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:07:05.237Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:07:05.255Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:07:05.255Z - [REQUEST]: apps/giggly-goals/src/app/goal/controllers/goals/goals.controller.ts
+[NX Daemon Server] - 2023-12-04T03:07:05.255Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:07:05.292Z - [WATCHER]: apps/giggly-goals/src/app/goal/controllers/goals/goals.controller.ts was modified
+[NX Daemon Server] - 2023-12-04T03:07:05.292Z - Time taken for 'hash changed files from watcher' 0.9056669999845326ms
+[NX Daemon Server] - 2023-12-04T03:07:05.402Z - [WATCHER]: apps/giggly-goals/src/app/goal/controllers/goals/goals.controller.ts was modified
+[NX Daemon Server] - 2023-12-04T03:07:05.403Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:07:05.507Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:07:05.507Z - [REQUEST]: apps/giggly-goals/src/app/goal/controllers/goals/goals.controller.ts
+[NX Daemon Server] - 2023-12-04T03:07:05.507Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:07:05.542Z - Time taken for 'hash changed files from watcher' 0.3597080000326969ms
+[NX Daemon Server] - 2023-12-04T03:07:05.584Z - [WATCHER]: apps/giggly-goals/src/app/goal/controllers/goals/goals.controller.ts was modified
+[NX Daemon Server] - 2023-12-04T03:07:05.584Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:07:05.991Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:07:05.991Z - [REQUEST]: apps/giggly-goals/src/app/goal/controllers/goals/goals.controller.ts
+[NX Daemon Server] - 2023-12-04T03:07:05.991Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:07:06.015Z - Time taken for 'hash changed files from watcher' 0.2269170000217855ms
+[NX Daemon Server] - 2023-12-04T03:07:06.165Z - [WATCHER]: apps/giggly-goals/src/app/goal/controllers/goals/goals.controller.ts was modified
+[NX Daemon Server] - 2023-12-04T03:07:06.165Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:07:06.978Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:07:06.978Z - [REQUEST]: apps/giggly-goals/src/app/goal/controllers/goals/goals.controller.ts
+[NX Daemon Server] - 2023-12-04T03:07:06.978Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:07:06.998Z - Time taken for 'hash changed files from watcher' 0.7493329999851994ms
+[NX Daemon Server] - 2023-12-04T03:07:47.616Z - [WATCHER]: apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts was modified
+[NX Daemon Server] - 2023-12-04T03:07:47.616Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:07:47.728Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:07:49.241Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:07:49.241Z - [REQUEST]: apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts
+[NX Daemon Server] - 2023-12-04T03:07:49.241Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:07:49.285Z - Time taken for 'hash changed files from watcher' 0.8740410000318661ms
+[NX Daemon Server] - 2023-12-04T03:07:49.781Z - [WATCHER]: apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts was modified
+[NX Daemon Server] - 2023-12-04T03:07:49.781Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:07:49.885Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:07:53.001Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:07:53.001Z - [REQUEST]: apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts
+[NX Daemon Server] - 2023-12-04T03:07:53.001Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:07:53.046Z - Time taken for 'hash changed files from watcher' 0.9361669999780133ms
+[NX Daemon Server] - 2023-12-04T03:07:58.379Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-12-04T03:07:58.379Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-04T03:07:58.379Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-12-04T03:07:58.380Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-04T03:07:58.380Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-04T03:07:58.382Z - Time taken for 'total for creating and serializing project graph' 0.0797080000047572ms
+[NX Daemon Server] - 2023-12-04T03:07:58.383Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-04T03:07:58.383Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2023-12-04T03:07:58.445Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-12-04T03:07:58.448Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-12-04T03:07:58.448Z - Handled HASH_TASKS. Handling time: 35. Response time: 3.
+[NX Daemon Server] - 2023-12-04T03:07:58.998Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:08:00.581Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:08:05.740Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:08:05.741Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:08:05.849Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:08:05.849Z - [REQUEST]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts
+[NX Daemon Server] - 2023-12-04T03:08:05.849Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:08:05.877Z - Time taken for 'hash changed files from watcher' 0.21204100002069026ms
+[NX Daemon Server] - 2023-12-04T03:08:05.886Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:08:05.886Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:08:06.052Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:08:06.052Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:08:06.097Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:08:06.097Z - [REQUEST]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts
+[NX Daemon Server] - 2023-12-04T03:08:06.097Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:08:06.123Z - Time taken for 'hash changed files from watcher' 0.23124999995343387ms
+[NX Daemon Server] - 2023-12-04T03:08:06.284Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:08:06.284Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:08:06.488Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:08:06.488Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:08:06.665Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:08:06.666Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:08:06.695Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:08:06.695Z - [REQUEST]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts
+[NX Daemon Server] - 2023-12-04T03:08:06.695Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:08:06.725Z - Time taken for 'hash changed files from watcher' 0.4700839999713935ms
+[NX Daemon Server] - 2023-12-04T03:08:06.848Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:08:06.848Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:08:07.053Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:08:07.053Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:08:07.657Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:08:07.657Z - [REQUEST]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts
+[NX Daemon Server] - 2023-12-04T03:08:07.657Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:08:07.683Z - Time taken for 'hash changed files from watcher' 0.2097910000011325ms
+[NX Daemon Server] - 2023-12-04T03:12:08.690Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-04T03:12:12.169Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-12-04T03:12:12.170Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-04T03:12:12.171Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-12-04T03:12:12.174Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-04T03:12:12.174Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-04T03:12:12.177Z - Time taken for 'total for creating and serializing project graph' 0.4162500000093132ms
+[NX Daemon Server] - 2023-12-04T03:12:12.179Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-04T03:12:12.179Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 5.
+[NX Daemon Server] - 2023-12-04T03:12:12.254Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-12-04T03:12:12.255Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-12-04T03:12:12.255Z - Handled HASH_TASKS. Handling time: 46. Response time: 1.
+[NX Daemon Server] - 2023-12-04T03:12:12.855Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:12:14.395Z - [WATCHER]: Processing file changes in outputs

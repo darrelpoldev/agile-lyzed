@@ -1,4 +1,12 @@
-import { Body, Controller, Get, HttpCode, Post } from '@nestjs/common';
+import {
+  Body,
+  Controller,
+  Delete,
+  Get,
+  HttpCode,
+  Param,
+  Post,
+} from '@nestjs/common';
 import { GoalUseCaseService } from '../../use-cases';
 import { Goal } from '../../domain';
 import { CreateGoalDTO } from '../../use-cases/goal/dtos/goal.dtos';
@@ -16,5 +24,10 @@ export class GoalsController {
   @HttpCode(201)
   async create(@Body() createGoalDTO: CreateGoalDTO): Promise<Goal> {
     return this.goalUsecase.createGoal(createGoalDTO);
+  }
+
+  @Delete(':id')
+  async delete(@Param('id') goalId: string) {
+    return this.goalUsecase.deleteGoal(goalId);
   }
 }

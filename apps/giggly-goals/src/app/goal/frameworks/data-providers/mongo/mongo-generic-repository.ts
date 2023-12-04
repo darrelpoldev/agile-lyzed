@@ -29,4 +29,18 @@ export class MongoGenericRepository<T> implements IGenericRepository<T> {
   update(id: string, item: T) {
     return this._repository.findByIdAndUpdate(id, item);
   }
+
+  softDelete(id: string) {
+    try {
+      console.info('hwrwes');
+      return this._repository.findByIdAndUpdate(
+        id,
+        { deletedAt: new Date() },
+        { new: true }
+      );
+      console.log('done deleting');
+    } catch (error) {
+      console.error(error);
+    }
+  }
 }

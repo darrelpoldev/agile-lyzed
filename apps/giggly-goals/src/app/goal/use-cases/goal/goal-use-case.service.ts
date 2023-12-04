@@ -27,7 +27,7 @@ export class GoalUseCaseService {
     throw new Error('Method not implemented');
   }
 
-  deleteGoalById(): Promise<Goal> {
-    throw new Error('Method not implemented');
+  async deleteGoal(goalId: string): Promise<Goal> {
+    return this.dataProvider.goals.softDelete(goalId);
   }
 }
