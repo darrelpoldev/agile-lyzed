@@ -20,6 +20,11 @@ export class GoalsController {
     return this.goalUsecase.getAllGoals();
   }
 
+  @Get(':id')
+  async findById(@Param('id') goalId: string): Promise<Goal> {
+    return this.goalUsecase.getGoalById(goalId);
+  }
+
   @Post()
   @HttpCode(201)
   async create(@Body() createGoalDTO: CreateGoalDTO): Promise<Goal> {

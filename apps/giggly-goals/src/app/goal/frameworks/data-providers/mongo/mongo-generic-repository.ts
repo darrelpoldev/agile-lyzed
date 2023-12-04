@@ -11,12 +11,16 @@ export class MongoGenericRepository<T> implements IGenericRepository<T> {
   }
 
   getAll(): Promise<T[]> {
-    return this._repository.find().populate(this._populateOnFind).exec();
+    return this._repository
+      .find({ deletedAt: null })
+      .populate(this._populateOnFind)
+      .exec();
   }
 
   getById(id: string): Promise<T> {
     const result = this._repository
       .findById(id)
+      .where({ deletedAt: null })
       .populate(this._populateOnFind)
       .exec();
     return result as Promise<T>;

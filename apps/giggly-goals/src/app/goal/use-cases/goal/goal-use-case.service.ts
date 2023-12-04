@@ -6,11 +6,12 @@ import { CreateGoalDTO } from './dtos/goal.dtos';
 @Injectable()
 export class GoalUseCaseService {
   constructor(private dataProvider: IDataProvider) {}
+
   async getAllGoals(): Promise<Goal[]> {
     return this.dataProvider.goals.getAll();
   }
 
-  getGoalById(id: string): Promise<Goal> {
+  async getGoalById(id: string): Promise<Goal> {
     return this.dataProvider.goals.getById(id);
   }
 

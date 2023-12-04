@@ -19329,3 +19329,96 @@ Error: Failed to process project dependencies with "nx-js-graph-plugin".
 [NX Daemon Server] - 2023-12-04T03:12:12.255Z - Handled HASH_TASKS. Handling time: 46. Response time: 1.
 [NX Daemon Server] - 2023-12-04T03:12:12.855Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2023-12-04T03:12:14.395Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:13:28.806Z - [WATCHER]: apps/giggly-goals/src/app/goal/controllers/goals/goals.controller.ts was modified
+[NX Daemon Server] - 2023-12-04T03:13:28.806Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:13:28.925Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:13:28.925Z - [REQUEST]: apps/giggly-goals/src/app/goal/controllers/goals/goals.controller.ts
+[NX Daemon Server] - 2023-12-04T03:13:28.925Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:13:28.978Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:13:28.978Z - Time taken for 'hash changed files from watcher' 1.399582999991253ms
+[NX Daemon Server] - 2023-12-04T03:13:34.256Z - [WATCHER]: apps/giggly-goals/src/app/goal/controllers/goals/goals.controller.ts was modified
+[NX Daemon Server] - 2023-12-04T03:13:34.257Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:13:34.355Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:13:34.471Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:13:34.471Z - [REQUEST]: apps/giggly-goals/src/app/goal/controllers/goals/goals.controller.ts
+[NX Daemon Server] - 2023-12-04T03:13:34.471Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:13:34.509Z - Time taken for 'hash changed files from watcher' 0.42191699997056276ms
+[NX Daemon Server] - 2023-12-04T03:13:40.141Z - [WATCHER]: apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts was modified
+[NX Daemon Server] - 2023-12-04T03:13:40.142Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:13:40.252Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:13:40.554Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:13:40.554Z - [REQUEST]: apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts
+[NX Daemon Server] - 2023-12-04T03:13:40.554Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:13:40.588Z - Time taken for 'hash changed files from watcher' 0.30637500004377216ms
+[NX Daemon Server] - 2023-12-04T03:13:44.498Z - [WATCHER]: apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts was modified
+[NX Daemon Server] - 2023-12-04T03:13:44.499Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:13:45.308Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:13:45.308Z - [REQUEST]: apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts
+[NX Daemon Server] - 2023-12-04T03:13:45.308Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:13:45.333Z - Time taken for 'hash changed files from watcher' 0.3882919999305159ms
+[NX Daemon Server] - 2023-12-04T03:13:47.779Z - [WATCHER]: apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts was modified
+[NX Daemon Server] - 2023-12-04T03:13:47.780Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:13:47.871Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:13:48.692Z - [WATCHER]: apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts was modified
+[NX Daemon Server] - 2023-12-04T03:13:48.692Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:13:48.911Z - [WATCHER]: apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts was modified
+[NX Daemon Server] - 2023-12-04T03:13:48.911Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:13:49.396Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:13:49.397Z - [REQUEST]: apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts
+[NX Daemon Server] - 2023-12-04T03:13:49.397Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:13:49.436Z - Time taken for 'hash changed files from watcher' 0.5333749999990687ms
+[NX Daemon Server] - 2023-12-04T03:14:06.969Z - [WATCHER]: apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts was modified
+[NX Daemon Server] - 2023-12-04T03:14:06.970Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:14:10.195Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:14:10.195Z - [REQUEST]: apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts
+[NX Daemon Server] - 2023-12-04T03:14:10.195Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:14:10.235Z - Time taken for 'hash changed files from watcher' 1.0832079999381676ms
+[NX Daemon Server] - 2023-12-04T03:14:11.765Z - [WATCHER]: apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts was modified
+[NX Daemon Server] - 2023-12-04T03:14:11.766Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:14:18.178Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:14:18.178Z - [REQUEST]: apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts
+[NX Daemon Server] - 2023-12-04T03:14:18.178Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:14:18.205Z - Time taken for 'hash changed files from watcher' 0.3202090000268072ms
+[NX Daemon Server] - 2023-12-04T03:14:54.458Z - [WATCHER]: apps/giggly-goals/src/app/goal/domain/abstracts/generic-repository.abstract.ts was modified
+[NX Daemon Server] - 2023-12-04T03:14:54.459Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:14:54.619Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:14:59.860Z - [WATCHER]: apps/giggly-goals/src/app/goal/domain/abstracts/generic-repository.abstract.ts was modified
+[NX Daemon Server] - 2023-12-04T03:14:59.861Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:15:00.005Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:15:00.083Z - [WATCHER]: apps/giggly-goals/src/app/goal/domain/abstracts/generic-repository.abstract.ts was modified
+[NX Daemon Server] - 2023-12-04T03:15:00.083Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:15:00.875Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:15:00.875Z - [REQUEST]: apps/giggly-goals/src/app/goal/domain/abstracts/generic-repository.abstract.ts
+[NX Daemon Server] - 2023-12-04T03:15:00.875Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:15:00.898Z - Time taken for 'hash changed files from watcher' 0.6719589999411255ms
+[NX Daemon Server] - 2023-12-04T03:15:45.225Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:15:45.225Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:15:45.343Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:15:46.023Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:15:46.023Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:15:46.201Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:15:46.201Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:15:46.384Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:15:46.384Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:15:46.546Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:15:46.546Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:15:51.669Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:15:51.669Z - [REQUEST]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts
+[NX Daemon Server] - 2023-12-04T03:15:51.669Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:15:51.704Z - Time taken for 'hash changed files from watcher' 2.052542000077665ms
+[NX Daemon Server] - 2023-12-04T03:17:02.049Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:17:02.053Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:17:02.192Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:17:08.488Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:17:08.490Z - [REQUEST]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts
+[NX Daemon Server] - 2023-12-04T03:17:08.490Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:17:08.533Z - Time taken for 'hash changed files from watcher' 7.811375000048429ms
+[NX Daemon Server] - 2023-12-04T03:18:19.793Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:18:19.795Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:18:20.201Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:18:20.348Z - [WATCHER]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts was modified
+[NX Daemon Server] - 2023-12-04T03:18:20.348Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-04T03:18:26.251Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-04T03:18:26.251Z - [REQUEST]: apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts
+[NX Daemon Server] - 2023-12-04T03:18:26.251Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-04T03:18:26.308Z - Time taken for 'hash changed files from watcher' 4.841749999905005ms
