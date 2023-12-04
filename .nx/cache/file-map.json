@@ -680,7 +680,7 @@
         },
         {
           "file": "apps/giggly-goals/src/app/goal/controllers/goals/goals.controller.ts",
-          "hash": "3788906180965918642",
+          "hash": "1375635351776005073",
           "deps": [
             "npm:@nestjs/common"
           ]
@@ -752,7 +752,7 @@
         },
         {
           "file": "apps/giggly-goals/src/app/goal/frameworks/data-providers/mongo/mongo-generic-repository.ts",
-          "hash": "15699881404616809662",
+          "hash": "3503629788091443256",
           "deps": [
             "npm:mongoose"
           ]
@@ -803,7 +803,7 @@
         },
         {
           "file": "apps/giggly-goals/src/app/goal/use-cases/goal/goal-use-case.service.ts",
-          "hash": "3892003795805782759",
+          "hash": "3321906192410869069",
           "deps": [
             "npm:@nestjs/common"
           ]

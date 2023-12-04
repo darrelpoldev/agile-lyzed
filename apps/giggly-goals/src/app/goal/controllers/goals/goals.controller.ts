@@ -6,10 +6,14 @@ import {
   HttpCode,
   Param,
   Post,
+  Put,
 } from '@nestjs/common';
 import { GoalUseCaseService } from '../../use-cases';
 import { Goal } from '../../domain';
-import { CreateGoalDTO } from '../../use-cases/goal/dtos/goal.dtos';
+import {
+  CreateGoalDTO,
+  UpdateGoalDTO,
+} from '../../use-cases/goal/dtos/goal.dtos';
 
 @Controller('goals')
 export class GoalsController {
@@ -29,6 +33,14 @@ export class GoalsController {
   @HttpCode(201)
   async create(@Body() createGoalDTO: CreateGoalDTO): Promise<Goal> {
     return this.goalUsecase.createGoal(createGoalDTO);
+  }
+
+  @Put(':id')
+  async update(
+    @Param('id') goalId: string,
+    @Body() updateGoalDTO: UpdateGoalDTO
+  ): Promise<Goal> {
+    return this.goalUsecase.updateGoal(goalId, updateGoalDTO);
   }
 
   @Delete(':id')
