@@ -3941,6 +3941,15 @@
         "hash": "sha512-xl+gUSp0B+ln1VSNoUftlglk8dfpUes3DHGxKZ5knuBxS5g2H/8p9/DSBOYWUfO5f4u9s6ffBPZ71WO+tbe5SA=="
       }
     },
+    "npm:@nestjs/mapped-types@2.0.3": {
+      "type": "npm",
+      "name": "npm:@nestjs/mapped-types@2.0.3",
+      "data": {
+        "version": "2.0.3",
+        "packageName": "@nestjs/mapped-types",
+        "hash": "sha512-40Zdqg98lqoF0+7ThWIZFStxgzisK6GG22+1ABO4kZiGF/Tu2FE+DYLw+Q9D94vcFWizJ+MSjNN4ns9r6hIGxw=="
+      }
+    },
     "npm:@nestjs/mongoose": {
       "type": "npm",
       "name": "npm:@nestjs/mongoose",
@@ -4074,6 +4083,15 @@
         "version": "9.2.0",
         "packageName": "@nestjs/schematics",
         "hash": "sha512-wHpNJDPzM6XtZUOB3gW0J6mkFCSJilzCM3XrHI1o0C8vZmFE1snbmkIXNyoi1eV0Nxh1BMymcgz5vIMJgQtTqw=="
+      }
+    },
+    "npm:@nestjs/swagger": {
+      "type": "npm",
+      "name": "npm:@nestjs/swagger",
+      "data": {
+        "version": "7.1.16",
+        "packageName": "@nestjs/swagger",
+        "hash": "sha512-f9KBk/BX9MUKPTj7tQNYJ124wV/jP5W2lwWHLGwe/4qQXixuDOo39zP55HIJ44LE7S04B7BOeUOo9GBJD/vRcw=="
       }
     },
     "npm:@nestjs/testing": {
@@ -14138,6 +14156,24 @@
         "hash": "sha512-Z706C1U2pb1+JGP48fbazf3KxHrWOsLme6Rv7imFBn5EnuanDW1GPaA/P1/dvObE670JDePC3mnj0k0B7P0jjQ=="
       }
     },
+    "npm:swagger-ui-dist": {
+      "type": "npm",
+      "name": "npm:swagger-ui-dist",
+      "data": {
+        "version": "5.9.1",
+        "packageName": "swagger-ui-dist",
+        "hash": "sha512-5zAx+hUwJb9T3EAntc7TqYkV716CMqG6sZpNlAAMOMWkNXRYxGkN8ADIvD55dQZ10LxN90ZM/TQmN7y1gpICnw=="
+      }
+    },
+    "npm:swagger-ui-express": {
+      "type": "npm",
+      "name": "npm:swagger-ui-express",
+      "data": {
+        "version": "5.0.0",
+        "packageName": "swagger-ui-express",
+        "hash": "sha512-tsU9tODVvhyfkNSvf03E6FAk+z+5cU3lXAzMy6Pv4av2Gt2xA0++fogwC4qo19XuFf6hdxevPuVCSKFuMHJhFA=="
+      }
+    },
     "npm:symbol-tree": {
       "type": "npm",
       "name": "npm:symbol-tree",
@@ -15222,6 +15258,11 @@
       },
       {
         "source": "giggly-goals",
+        "target": "npm:@nestjs/swagger",
+        "type": "static"
+      },
+      {
+        "source": "giggly-goals",
         "target": "npm:@nestjs/mongoose",
         "type": "static"
       },
@@ -15314,6 +15355,11 @@
       },
       {
         "source": "agile-lyzed",
+        "target": "npm:@nestjs/swagger",
+        "type": "static"
+      },
+      {
+        "source": "agile-lyzed",
         "target": "npm:@swc/helpers",
         "type": "static"
       },
@@ -15380,6 +15426,11 @@
       {
         "source": "agile-lyzed",
         "target": "npm:sort-by",
+        "type": "static"
+      },
+      {
+        "source": "agile-lyzed",
+        "target": "npm:swagger-ui-express",
         "type": "static"
       },
       {
@@ -22166,6 +22217,70 @@
       {
         "source": "npm:@nestjs/schematics",
         "target": "npm:pluralize",
+        "type": "static"
+      }
+    ],
+    "npm:@nestjs/swagger": [
+      {
+        "source": "npm:@nestjs/swagger",
+        "target": "npm:@nestjs/common",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/swagger",
+        "target": "npm:@nestjs/core",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/swagger",
+        "target": "npm:class-validator",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/swagger",
+        "target": "npm:reflect-metadata",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/swagger",
+        "target": "npm:@nestjs/mapped-types@2.0.3",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/swagger",
+        "target": "npm:js-yaml",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/swagger",
+        "target": "npm:lodash",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/swagger",
+        "target": "npm:path-to-regexp@3.2.0",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/swagger",
+        "target": "npm:swagger-ui-dist",
+        "type": "static"
+      }
+    ],
+    "npm:@nestjs/mapped-types@2.0.3": [
+      {
+        "source": "npm:@nestjs/mapped-types@2.0.3",
+        "target": "npm:@nestjs/common",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/mapped-types@2.0.3",
+        "target": "npm:class-validator",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/mapped-types@2.0.3",
+        "target": "npm:reflect-metadata",
         "type": "static"
       }
     ],
@@ -35820,6 +35935,18 @@
       {
         "source": "npm:svgo",
         "target": "npm:picocolors",
+        "type": "static"
+      }
+    ],
+    "npm:swagger-ui-express": [
+      {
+        "source": "npm:swagger-ui-express",
+        "target": "npm:express",
+        "type": "static"
+      },
+      {
+        "source": "npm:swagger-ui-express",
+        "target": "npm:swagger-ui-dist",
         "type": "static"
       }
     ],

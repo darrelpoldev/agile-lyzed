@@ -13,6 +13,7 @@
     "@nestjs/mapped-types": "^2.0.4",
     "@nestjs/mongoose": "^10.0.2",
     "@nestjs/platform-express": "^10.0.2",
+    "@nestjs/swagger": "^7.1.16",
     "@swc/helpers": "~0.5.2",
     "axios": "^1.0.0",
     "class-validator": "^0.14.0",
@@ -27,6 +28,7 @@
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.0",
     "sort-by": "^1.2.0",
+    "swagger-ui-express": "^5.0.0",
     "tslib": "^2.3.0",
     "@babel/core": "^7.14.5",
     "@babel/preset-react": "^7.14.5",
@@ -91,50 +93,6 @@
   "fileMap": {
     "nonProjectFiles": [],
     "projectFileMap": {
-      "agile-lyzed-api-e2e": [
-        {
-          "file": "apps/agile-lyzed-api-e2e/.eslintrc.json",
-          "hash": "942885824144343268"
-        },
-        {
-          "file": "apps/agile-lyzed-api-e2e/jest.config.ts",
-          "hash": "10767702087488859393"
-        },
-        {
-          "file": "apps/agile-lyzed-api-e2e/project.json",
-          "hash": "18399933910823782859"
-        },
-        {
-          "file": "apps/agile-lyzed-api-e2e/src/agile-lyzed-api/agile-lyzed-api.spec.ts",
-          "hash": "110394728024017389",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "apps/agile-lyzed-api-e2e/src/support/global-setup.ts",
-          "hash": "2568409276037275290"
-        },
-        {
-          "file": "apps/agile-lyzed-api-e2e/src/support/global-teardown.ts",
-          "hash": "5275447082211835490"
-        },
-        {
-          "file": "apps/agile-lyzed-api-e2e/src/support/test-setup.ts",
-          "hash": "10984585515912236441",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "apps/agile-lyzed-api-e2e/tsconfig.json",
-          "hash": "15443990093475294480"
-        },
-        {
-          "file": "apps/agile-lyzed-api-e2e/tsconfig.spec.json",
-          "hash": "14954872453723519891"
-        }
-      ],
       "agile-lyzed": [
         {
           "file": ".eslintignore",
@@ -196,11 +154,11 @@
         },
         {
           "file": "package-lock.json",
-          "hash": "14143465656279858258"
+          "hash": "2895797330545181999"
         },
         {
           "file": "package.json",
-          "hash": "15460410339034052943",
+          "hash": "9754739699261564651",
           "deps": [
             "npm:@chakra-ui/icons",
             "npm:@chakra-ui/next-js",
@@ -213,6 +171,7 @@
             "npm:@nestjs/mapped-types",
             "npm:@nestjs/mongoose",
             "npm:@nestjs/platform-express",
+            "npm:@nestjs/swagger",
             "npm:@swc/helpers",
             "npm:axios",
             "npm:class-validator",
@@ -227,6 +186,7 @@
             "npm:reflect-metadata",
             "npm:rxjs",
             "npm:sort-by",
+            "npm:swagger-ui-express",
             "npm:tslib",
             "npm:@babel/core",
             "npm:@babel/preset-react",
@@ -322,6 +282,94 @@
             "npm:vite",
             "npm:@nx/vite"
           ]
+        }
+      ],
+      "agile-lyzed-api-e2e": [
+        {
+          "file": "apps/agile-lyzed-api-e2e/.eslintrc.json",
+          "hash": "942885824144343268"
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/jest.config.ts",
+          "hash": "10767702087488859393"
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/project.json",
+          "hash": "18399933910823782859"
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/src/agile-lyzed-api/agile-lyzed-api.spec.ts",
+          "hash": "110394728024017389",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/src/support/global-setup.ts",
+          "hash": "2568409276037275290"
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/src/support/global-teardown.ts",
+          "hash": "5275447082211835490"
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/src/support/test-setup.ts",
+          "hash": "10984585515912236441",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/tsconfig.json",
+          "hash": "15443990093475294480"
+        },
+        {
+          "file": "apps/agile-lyzed-api-e2e/tsconfig.spec.json",
+          "hash": "14954872453723519891"
+        }
+      ],
+      "giggly-goals-e2e": [
+        {
+          "file": "apps/giggly-goals-e2e/.eslintrc.json",
+          "hash": "942885824144343268"
+        },
+        {
+          "file": "apps/giggly-goals-e2e/jest.config.ts",
+          "hash": "18092827361970010171"
+        },
+        {
+          "file": "apps/giggly-goals-e2e/project.json",
+          "hash": "12724437446100861471"
+        },
+        {
+          "file": "apps/giggly-goals-e2e/src/giggly-goals/giggly-goals.spec.ts",
+          "hash": "110394728024017389",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals-e2e/src/support/global-setup.ts",
+          "hash": "2568409276037275290"
+        },
+        {
+          "file": "apps/giggly-goals-e2e/src/support/global-teardown.ts",
+          "hash": "5275447082211835490"
+        },
+        {
+          "file": "apps/giggly-goals-e2e/src/support/test-setup.ts",
+          "hash": "10984585515912236441",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/giggly-goals-e2e/tsconfig.json",
+          "hash": "15443990093475294480"
+        },
+        {
+          "file": "apps/giggly-goals-e2e/tsconfig.spec.json",
+          "hash": "14954872453723519891"
         }
       ],
       "agile-lyzed-app": [
@@ -501,50 +549,6 @@
           ]
         }
       ],
-      "giggly-goals-e2e": [
-        {
-          "file": "apps/giggly-goals-e2e/.eslintrc.json",
-          "hash": "942885824144343268"
-        },
-        {
-          "file": "apps/giggly-goals-e2e/jest.config.ts",
-          "hash": "18092827361970010171"
-        },
-        {
-          "file": "apps/giggly-goals-e2e/project.json",
-          "hash": "12724437446100861471"
-        },
-        {
-          "file": "apps/giggly-goals-e2e/src/giggly-goals/giggly-goals.spec.ts",
-          "hash": "110394728024017389",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "apps/giggly-goals-e2e/src/support/global-setup.ts",
-          "hash": "2568409276037275290"
-        },
-        {
-          "file": "apps/giggly-goals-e2e/src/support/global-teardown.ts",
-          "hash": "5275447082211835490"
-        },
-        {
-          "file": "apps/giggly-goals-e2e/src/support/test-setup.ts",
-          "hash": "10984585515912236441",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "apps/giggly-goals-e2e/tsconfig.json",
-          "hash": "15443990093475294480"
-        },
-        {
-          "file": "apps/giggly-goals-e2e/tsconfig.spec.json",
-          "hash": "14954872453723519891"
-        }
-      ],
       "agile-lyzed-app-e2e": [
         {
           "file": "apps/agile-lyzed-app-e2e/.eslintrc.json",
@@ -629,9 +633,10 @@
         },
         {
           "file": "apps/giggly-goals/src/app/goal/controllers/goals/goals.controller.ts",
-          "hash": "1375635351776005073",
+          "hash": "5299721434166543967",
           "deps": [
-            "npm:@nestjs/common"
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
           ]
         },
         {
@@ -730,10 +735,11 @@
         },
         {
           "file": "apps/giggly-goals/src/app/goal/use-cases/goal/dtos/goal.dtos.ts",
-          "hash": "8776245093158703819",
+          "hash": "17551768410415409515",
           "deps": [
             "npm:class-validator",
-            "npm:@nestjs/mapped-types"
+            "npm:@nestjs/mapped-types",
+            "npm:@nestjs/swagger"
           ]
         },
         {
@@ -771,8 +777,9 @@
         },
         {
           "file": "apps/giggly-goals/src/main.ts",
-          "hash": "11205222914964382693",
+          "hash": "16349123412826198274",
           "deps": [
+            "npm:@nestjs/swagger",
             "npm:@nestjs/common",
             "npm:@nestjs/core"
           ]
